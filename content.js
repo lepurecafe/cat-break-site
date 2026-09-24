@@ -36,7 +36,6 @@ export const content = {
       "An orange cat sleeping over a fictional work desktop, with app controls shown in English."
     ],
     galleryNames: ["Arriving", "Sitting", "Settling", "Sleeping"],
-    galleryCaption: "Frames from the app’s actual cat footage, composed over fictional work backgrounds. The app controls are recreated for these images and shown in English.",
     enlarge: "Enlarge image",
     closeImage: "Close image",
     detailsLabel: "Private & minimal",
@@ -56,7 +55,6 @@ export const content = {
         body: "Meow and purr are off by default, with separate switches and volumes. Enable purring and it gradually grows as you pet, up to your chosen volume."
       }
     ],
-    specs: "macOS 15 or later · App: English and Korean · Website: English, Korean, and Japanese",
     supportLabel: "A little guidance",
     supportTitle: "Here to help.",
     supportIntro: "A few answers before your first visit. For anything else, get in touch by email.",
@@ -154,7 +152,6 @@ export const content = {
       "가상 업무 화면 위에서 잠든 주황 고양이. 앱 조작부는 영어로 표시되어 있습니다."
     ],
     galleryNames: ["걸어오기", "앉기", "자리 잡기", "잠들기"],
-    galleryCaption: "앱에서 사용하는 실제 고양이 영상의 프레임을 가상 업무 배경에 합성한 이미지입니다. 앱 조작부는 이미지용으로 재현했으며 영어로 표시되어 있습니다.",
     enlarge: "이미지 크게 보기",
     closeImage: "이미지 닫기",
     detailsLabel: "나의 Mac을 위한 작은 동반자",
@@ -174,7 +171,6 @@ export const content = {
         body: "야옹과 골골 소리는 기본으로 꺼져 있으며 각각 켜고 음량을 정할 수 있습니다. 골골 소리를 켜면 쓰다듬는 동안 설정한 음량까지 점차 커집니다."
       }
     ],
-    specs: "macOS 15 이상 · 앱: 영어·한국어 · 웹사이트: 영어·한국어·일본어",
     supportLabel: "간단한 사용 안내",
     supportTitle: "도움이 필요하신가요?",
     supportIntro: "첫 만남 전에 알아 두면 좋은 내용을 모았습니다. 다른 궁금한 점은 이메일로 문의해 주세요.",
@@ -272,7 +268,6 @@ export const content = {
       "架空の作業画面の上で眠っている茶トラの猫。アプリの操作部分は英語表示です。"
     ],
     galleryNames: ["やってくる", "座る", "くつろぐ", "眠る"],
-    galleryCaption: "アプリで実際に使っている猫の映像のフレームを、架空の作業画面に合成した画像です。アプリの操作部分は画像用に再現しており、英語で表示しています。",
     enlarge: "画像を拡大",
     closeImage: "画像を閉じる",
     detailsLabel: "あなたのMacに",
@@ -292,7 +287,6 @@ export const content = {
         body: "鳴き声とゴロゴロ音は初期設定ではオフ。それぞれオンにして音量を調整できます。ゴロゴロ音をオンにすると、なでている間に設定した音量まで少しずつ大きくなります。"
       }
     ],
-    specs: "macOS 15以降 · アプリ：英語・韓国語 · ウェブサイト：英語・韓国語・日本語",
     supportLabel: "使い方のヒント",
     supportTitle: "お手伝いします。",
     supportIntro: "はじめて使う前に知っておきたいことをまとめました。そのほかのご質問はメールでお寄せください。",
