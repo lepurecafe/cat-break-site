@@ -83,7 +83,7 @@ export const content = {
       },
       {
         q: "Which Macs and languages are supported, and when can I get it?",
-        a: "Cat Break requires macOS 15 or later. The app currently supports English and Korean, following your system’s preferred supported language and using English otherwise. This website also supports Japanese; the app does not yet. Cat Break is coming to the Mac App Store as a free app with no account required. It is not publicly released yet."
+        a: "Cat Break requires macOS 15 or later. The app currently supports English and Korean, following your system’s preferred supported language and using English otherwise. This website also supports Japanese and French; the app does not yet. Cat Break is coming to the Mac App Store as a free app with no account required. It is not publicly released yet."
       }
     ],
     privacyLabel: "Your information",
@@ -114,6 +114,122 @@ export const content = {
     ],
     footerLine: "A little pause. A softer day.",
     backTop: "Back to top"
+  },
+  fr: {
+    title: "Cat Break — Une pause. Tout en douceur.",
+    description: "Un chat s’invite sur votre Mac pour une petite pause. Choisissez vos rappels et vos sons, puis reprenez votre travail quand vous le souhaitez. Bientôt sur le Mac App Store.",
+    skip: "Aller au contenu",
+    navHow: "Découvrir",
+    navSupport: "Assistance",
+    navPrivacy: "Confidentialité",
+    heroTitle: ["Une pause.", "Tout en douceur."],
+    heroDescription: "Cat Break invite un chat sur votre Mac, le temps d’une petite pause pour souffler et repartir du bon pied.",
+    ctaDemo: "Voir le chat",
+    ctaSupport: "Nous contacter",
+    availability: "Bientôt sur le Mac App Store · macOS 15+ · Gratuit",
+    howLabel: "Comment ça marche",
+    howTitle: ["Une visite,", "pas une tâche de plus."],
+    howIntro: "Invitez le chat depuis la barre des menus ou programmez vos rappels. Il prend son temps. À vous de décider combien de temps rester.",
+    steps: [
+      {
+        title: "Une arrivée discrète",
+        body: "Un chat roux entre par le bord de votre écran. Si vous activez le miaulement, un petit bonjour annonce son arrivée."
+      },
+      {
+        title: "Le temps de se poser",
+        body: "Le chat s’assoit, somnole, puis s’allonge. Une fois qu’il dort, choisissez « Pet the cat » pour passer un moment à le caresser."
+      },
+      {
+        title: "Retour à votre journée",
+        body: "Choisissez « Dismiss » pour terminer la visite immédiatement, ou « Snooze 10 min » pour masquer le chat et reporter le rappel de 10 minutes. Vous pouvez aussi suspendre les rappels automatiques."
+      }
+    ],
+    galleryLabel: "Une visite en quatre moments",
+    galleryAlt: [
+      "Un chat roux arrive sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais.",
+      "Un chat roux est assis sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais.",
+      "Un chat roux s’allonge sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais.",
+      "Un chat roux dort sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais."
+    ],
+    galleryNames: ["Arrivée", "Assis", "Au repos", "Sommeil"],
+    enlarge: "Agrandir l’image",
+    closeImage: "Fermer l’image",
+    detailsLabel: "Simple et discret",
+    detailsTitle: ["Simple par nature.", "Privé par choix."],
+    detailsIntro: "Recevez un rappel à chaque heure pile ou à intervalles réguliers depuis le démarrage. Définissez des plages sans rappels, suspendez-les ou invitez le chat depuis la barre des menus.",
+    features: [
+      {
+        title: "Tout reste sur votre Mac",
+        body: "Les réglages, les horaires des rappels et les données des pauses sont conservés localement. L’application ne les transmet pas à un serveur du développeur."
+      },
+      {
+        title: "Sans compte",
+        body: "Gratuit, sans inscription. L’application ne contient ni publicité ni SDK d’analyse."
+      },
+      {
+        title: "Des sons, si vous le souhaitez",
+        body: "Miaulements et ronronnements sont désactivés par défaut, avec un interrupteur et un volume pour chacun. Activez le ronronnement : il augmente progressivement pendant les caresses, jusqu’au volume choisi."
+      }
+    ],
+    supportLabel: "Quelques repères",
+    supportTitle: "Besoin d’aide ?",
+    supportIntro: "Quelques réponses avant la première visite. Pour toute autre question, écrivez-nous.",
+    contactLabel: "Écrire à l’assistance",
+    contactHint: "Indiquez les versions de l’application et de macOS, le modèle de Mac, le dispositif de pointage et les étapes pour reproduire le problème. N’envoyez aucun mot de passe, document privé ou capture contenant des informations personnelles.",
+    faqs: [
+      {
+        q: "Comment inviter le chat ou programmer les rappels ?",
+        a: "Terminez le guide du premier lancement, puis utilisez l’icône en forme de patte dans la barre des menus pour démarrer une pause ou ouvrir les réglages. Choisissez des rappels à chaque heure pile ou à intervalles réguliers depuis le démarrage, et définissez les plages horaires sans visite automatique."
+      },
+      {
+        q: "Comment caresser le chat ?",
+        a: "Les caresses sont possibles uniquement lorsque le chat dort. Choisissez « Pet the cat », placez le pointeur sur le chat et faites glisser trois doigts sur le trackpad, sans cliquer. Avec une souris, cliquez sur le chat et faites glisser le pointeur en maintenant le bouton enfoncé."
+      },
+      {
+        q: "Pourquoi le geste à trois doigts change-t-il de bureau ?",
+        a: "Les gestes à trois doigts de macOS peuvent entrer en conflit avec les caresses. Cat Break ne bloque pas les gestes du système et ne modifie pas vos réglages. En cas de conflit, utilisez le cliquer-glisser avec la souris ou consultez les réglages des gestes de macOS."
+      },
+      {
+        q: "Pourquoi n’y a-t-il aucun son ?",
+        a: "Les sons sont désactivés par défaut. Dans les réglages, activez séparément les miaulements et les ronronnements, puis ajustez leur volume. Une fois activé, le ronronnement commence avec les caresses et augmente progressivement tant que vous continuez, jusqu’au volume choisi."
+      },
+      {
+        q: "Puis-je terminer la visite ou réduire les animations ?",
+        a: "Oui. « Dismiss » termine la visite immédiatement ; « Snooze 10 min » masque aussitôt le chat et reporte le rappel de 10 minutes. Vous pouvez aussi désactiver ou suspendre les rappels automatiques. « Reduce Motion » affiche une image fixe à la place de la vidéo et tient également compte du réglage de réduction des animations de macOS."
+      },
+      {
+        q: "Quels Mac et quelles langues sont pris en charge ? Quand sera-t-il disponible ?",
+        a: "Cat Break nécessite macOS 15 ou une version ultérieure. L’application est actuellement disponible en anglais et en coréen. Elle utilise la langue compatible préférée du système, ou l’anglais à défaut. Le site propose aussi le français et le japonais, mais pas encore l’application. Cat Break sera gratuit et sans compte sur le Mac App Store. Il n’est pas encore disponible au public."
+      }
+    ],
+    privacyLabel: "Vos informations",
+    privacyTitle: "La confidentialité, en toute clarté.",
+    privacyMeta: "24 septembre 2026 · Responsable : Bongkwon Choi (BK)",
+    privacyLead: "Cat Break fonctionne sans compte. Les réglages et les données des pauses restent sur votre Mac. L’application ne contient aucun SDK publicitaire ou d’analyse et ne transmet pas ces données à un serveur du développeur.",
+    privacySections: [
+      {
+        title: "Les données conservées sur le Mac",
+        body: "L’application conserve localement les réglages, les horaires des rappels, ainsi que les horodatages, états, résultats et durées d’affichage des sessions de pause. Ces données décrivent les pauses de l’application."
+      },
+      {
+        title: "Le traitement des gestes de caresse",
+        body: "Les gestes sont traités temporairement dans l’application pour permettre au chat de réagir. L’application n’enregistre ni les trajectoires tactiles brutes ni les frappes au clavier, ne capture pas l’écran et ne collecte aucun contenu de document, historique de navigation, donnée du microphone ou de la caméra. Les références servant à réactiver l’application précédente sont conservées uniquement en mémoire."
+      },
+      {
+        title: "Supprimer les données locales",
+        body: "L’application ne propose pas actuellement de commande générale pour supprimer les données locales ou l’historique. Écrivez à music.bk@gmail.com pour connaître la procédure. La désinstallation seule peut laisser des réglages et des données sur votre Mac."
+      },
+      {
+        title: "Services et diagnostics Apple",
+        body: "Les diagnostics facultatifs d’Apple et les traitements liés à l’App Store ou à TestFlight sont distincts du stockage local de l’application et relèvent des politiques d’Apple."
+      },
+      {
+        title: "Assistance par e-mail et site web",
+        body: "Si vous contactez l’assistance par e-mail, les coordonnées et le message fournis servent à vous répondre et à résoudre votre demande. Vous pouvez demander la suppression de ces échanges à music.bk@gmail.com. Ce site n’utilise ni outil d’analyse, ni cookie, ni stockage des préférences dans le navigateur. Il est hébergé sur GitHub Pages ; les journaux d’accès habituels de l’hébergeur sont distincts et relèvent des politiques de GitHub."
+      }
+    ],
+    footerLine: "Une pause. Tout en douceur.",
+    backTop: "Haut de page"
   },
   ko: {
     title: "Cat Break — 잠깐의 쉼. 조금 더 부드러운 하루.",
@@ -199,7 +315,7 @@ export const content = {
       },
       {
         q: "지원하는 Mac과 언어는 무엇이며, 언제 받을 수 있나요?",
-        a: "macOS 15 이상이 필요합니다. 앱은 현재 영어와 한국어를 지원하며 시스템의 선호 언어 중 지원하는 언어를 사용하고, 해당 언어가 없으면 영어로 표시합니다. 웹사이트는 일본어도 제공하지만 앱은 아직 일본어를 지원하지 않습니다. 무료·계정 없는 앱으로 Mac App Store 출시를 준비 중이며, 아직 공개 출시되지 않았습니다."
+        a: "macOS 15 이상이 필요합니다. 앱은 현재 영어와 한국어를 지원하며 시스템의 선호 언어 중 지원하는 언어를 사용하고, 해당 언어가 없으면 영어로 표시합니다. 웹사이트는 일본어와 프랑스어도 제공하지만 앱은 아직 두 언어를 지원하지 않습니다. 무료·계정 없는 앱으로 Mac App Store 출시를 준비 중이며, 아직 공개 출시되지 않았습니다."
       }
     ],
     privacyLabel: "개인정보 안내",
@@ -315,7 +431,7 @@ export const content = {
       },
       {
         q: "対応するMacと言語は？ いつ入手できますか？",
-        a: "macOS 15以降が必要です。アプリは現在、英語と韓国語に対応し、システムの優先言語のうち対応するものを使用します。該当しない場合は英語で表示します。このウェブサイトは日本語にも対応していますが、アプリはまだ日本語に対応していません。無料・アカウント不要のアプリとしてMac App Storeでの公開を準備中で、一般公開はまだ行っていません。"
+        a: "macOS 15以降が必要です。アプリは現在、英語と韓国語に対応し、システムの優先言語のうち対応するものを使用します。該当しない場合は英語で表示します。このウェブサイトは日本語とフランス語にも対応していますが、アプリはまだこの2言語に対応していません。無料・アカウント不要のアプリとしてMac App Storeでの公開を準備中で、一般公開はまだ行っていません。"
       }
     ],
     privacyLabel: "情報の取り扱い",

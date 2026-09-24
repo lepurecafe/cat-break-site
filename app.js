@@ -1,4 +1,6 @@
-import { content } from './content.js';
+// Share the build's cache version with the dictionary so new locales arrive together.
+const { content } = await import(`./content.js${new URL(import.meta.url).search}`);
+const localeSuffix = new RegExp(`-(${Object.keys(content).join('|')})$`);
 
 const dialog = document.querySelector('.image-dialog');
 const dialogImage = dialog.querySelector('img');
@@ -6,7 +8,7 @@ let language = 'en';
 let openingButton;
 
 function resolveLanguage() {
-  const anchorLanguage = location.hash.match(/-(en|ko|ja)$/)?.[1];
+  const anchorLanguage = location.hash.match(localeSuffix)?.[1];
   const queryLanguage = new URLSearchParams(location.search).get('lang');
   return anchorLanguage || (Object.hasOwn(content, queryLanguage) ? queryLanguage : 'en');
 }
@@ -26,7 +28,7 @@ document.querySelectorAll('[data-language]').forEach(link => {
   link.addEventListener('click', event => {
     event.preventDefault();
     const nextLanguage = link.dataset.language;
-    const nextHash = location.hash.replace(/-(en|ko|ja)$/, `-${nextLanguage}`) || '#top';
+    const nextHash = location.hash.replace(localeSuffix, `-${nextLanguage}`) || '#top';
     history.pushState(null, '', `?lang=${nextLanguage}${nextHash}`);
     applyLanguage(true);
   });

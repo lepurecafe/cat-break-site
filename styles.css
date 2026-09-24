@@ -104,6 +104,10 @@ footer .wordmark { font-size:1.75rem; }
 .image-dialog p { font-size:var(--text-small); margin:.75rem 0 0; }
 
 /* Korean uses word boundaries; Japanese uses its native punctuation rules. */
+/* Keep the short French slogan's phrases together when space allows, without a forced break. */
+:lang(fr) h1 { max-width:15ch; }
+:lang(fr) .hero-description { max-width:40rem; }
+.hero-phrase { display:inline-block; max-width:100%; }
 :lang(ko) { word-break:keep-all; }
 :lang(ja) { word-break:normal; line-break:strict; }
 .locale:lang(ko),.locale:lang(ja) { --measure:32em; --leading:1.8; }
