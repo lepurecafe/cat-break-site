@@ -1,462 +1,271 @@
+// Shared facts and locale-specific writing rules: see README.md.
 export const content = {
   en: {
-    title: "Cat Break — A little pause. A softer day.",
-    description: "A cat visits your Mac for a little pause. Set your own reminders, choose optional sounds, and return to work whenever you like. Coming to the Mac App Store.",
+    title: "Cat Break — Take a break with a cat.",
+    description: "A cat walks onto your screen when it’s time for a break. Set reminders, pet the cat, and get back to work whenever you’re ready. Coming to the Mac App Store.",
     skip: "Skip to content",
     navHow: "How it works",
     navSupport: "Support",
     navPrivacy: "Privacy",
-    heroTitle: ["A little pause.", "A softer day."],
-    heroDescription: "Cat Break brings a cat to your Mac, so you can take a short, gentle break and come back refreshed.",
-    ctaDemo: "See it in action",
-    ctaSupport: "Contact support",
+    heroTitle: ["Take a break.", "With a cat."],
+    heroDescription: "When it’s time for a break, a cat walks onto your screen. Watch it settle in. Or get back to work whenever you need to.",
+    ctaDemo: "Meet the cat",
+    ctaSupport: "Get help",
     availability: "Coming to the Mac App Store · macOS 15+ · Free",
     howLabel: "How it works",
-    howTitle: ["A visitor,", "not another task."],
-    howIntro: "Start a visit from the menu bar or choose a reminder schedule. The cat takes its time. You decide how long to stay.",
+    howTitle: ["A cat arrives.", "Your break begins."],
+    howIntro: "Choose when the cat appears, or start a break from the menu bar. Stay for a moment or close it whenever you’re ready.",
     steps: [
-      {
-        title: "A quiet arrival",
-        body: "An orange cat walks in from the side of your screen. If you enable the meow, a small hello comes first."
-      },
-      {
-        title: "A place to settle",
-        body: "The cat sits, grows sleepy, and settles down. Once it is asleep, select Pet the cat to spend a moment petting it."
-      },
-      {
-        title: "Back to your day",
-        body: "Choose Dismiss to end the visit immediately, or Snooze 10 min to hide the cat and snooze the reminder. You can also pause automatic reminders."
-      }
+      { title: "Here comes the cat.", body: "An orange cat walks in from the edge of your screen. Turn on the meow to hear it just before the cat arrives." },
+      { title: "Settle in. Give it a pet.", body: "The cat sits, lies down, and falls asleep. Once it’s asleep, select “Pet the cat” to start petting." },
+      { title: "Back to work. Anytime.", body: "Select “Dismiss” to remove the cat straight away. Need a little longer before your break? “Snooze 10 min” hides the cat and reminds you again in 10 minutes." }
     ],
-    galleryLabel: "A visit, in four moments",
+    galleryLabel: "Four cat scenes",
     galleryAlt: [
-      "An orange cat arriving over a fictional work desktop, with app controls shown in English.",
-      "An orange cat sitting over a fictional work desktop, with app controls shown in English.",
-      "An orange cat settling down over a fictional work desktop, with app controls shown in English.",
-      "An orange cat sleeping over a fictional work desktop, with app controls shown in English."
+      "An orange cat walking across a sample work screen.",
+      "An orange cat sitting in front of a sample work screen.",
+      "An orange cat lying down in front of a sample work screen.",
+      "An orange cat sleeping in front of a sample work screen."
     ],
-    galleryNames: ["Arriving", "Sitting", "Settling", "Sleeping"],
+    galleryNames: ["Walking in", "Sitting", "Lying down", "Sleeping"],
     enlarge: "Enlarge image",
     closeImage: "Close image",
-    detailsLabel: "Private & minimal",
-    detailsTitle: ["Simple by nature.", "Private by design."],
-    detailsIntro: "Choose reminders on the hour or at intervals from when you start. Set quiet hours, pause reminders, or invite the cat yourself from the menu bar.",
+    detailsLabel: "Your preferences",
+    detailsTitle: ["Your break.", "Your choice."],
+    detailsIntro: "Set reminders every 30, 60, or 120 minutes. Choose times when reminders stay off, or pause them when you need to focus.",
     features: [
-      {
-        title: "Kept on your Mac",
-        body: "Settings, schedules, and break-session records are stored locally. The app sends none of this data to a developer server."
-      },
-      {
-        title: "No account needed",
-        body: "Free, with no sign-up. The app has no advertising or analytics SDKs."
-      },
-      {
-        title: "Sound, if you like",
-        body: "Meow and purr are off by default, with separate switches and volumes. Enable purring and it gradually grows as you pet, up to your chosen volume."
-      }
+      { title: "Stored on your Mac.", body: "Your settings, reminder schedule, and break records stay on your Mac. The app does not send them to the developer’s servers." },
+      { title: "Free. No account needed.", body: "No sign-up and no ads. The app does not use analytics tools to track how you use it." },
+      { title: "Sound is up to you.", body: "Meows and purring are off by default. Turn them on separately and set each volume. As you pet, the purr builds to your chosen volume and continues while you keep petting." }
     ],
-    supportLabel: "A little guidance",
-    supportTitle: "Here to help.",
-    supportIntro: "A few answers before your first visit. For anything else, get in touch by email.",
+    supportLabel: "Support",
+    supportTitle: "A few things to know.",
+    supportIntro: "Find answers below. If you still need help, send an email.",
     contactLabel: "Email support",
-    contactHint: "Include your app and macOS versions, Mac and input device, and steps to reproduce the issue. Please do not send passwords, private documents, or screenshots containing personal information.",
+    contactHint: "Tell us your app and macOS versions, Mac model, and whether you use a trackpad or mouse. Describe what you were doing when the problem occurred. Do not send passwords, private documents, or screenshots with personal information.",
     faqs: [
-      {
-        q: "How do I start a visit or set reminders?",
-        a: "Complete the first-run guide, then use the paw icon in the menu bar to start a break or open Settings. Choose reminders on the hour or at intervals from when you start, and set quiet hours when you do not want automatic visits."
-      },
-      {
-        q: "How do I pet the cat?",
-        a: "Petting is available only while the cat is asleep. Select Pet the cat, place the pointer over the cat, and stroke the trackpad with three fingers without clicking. With a mouse, click and drag over the cat."
-      },
-      {
-        q: "Why does a three-finger gesture switch my desktop?",
-        a: "macOS three-finger gestures can conflict with petting. Cat Break does not block system gestures or change your settings. If a gesture gets in the way, use mouse click-and-drag instead, or review your macOS gesture settings."
-      },
-      {
-        q: "Why is there no sound?",
-        a: "Sounds are off by default. In Settings, enable meow and purr separately and adjust their volumes. When purring is enabled, it starts with petting and gradually grows as you continue, up to the volume you selected."
-      },
-      {
-        q: "Can I dismiss a visit or reduce motion?",
-        a: "Yes. Dismiss ends the visit immediately; Snooze 10 min immediately hides the cat and snoozes the reminder. You can also turn off or pause automatic reminders. Reduce Motion shows a still image instead of video and also follows the macOS Reduce Motion setting."
-      },
-      {
-        q: "Which Macs and languages are supported, and when can I get it?",
-        a: "Cat Break requires macOS 15 or later. The app currently supports English and Korean, following your system’s preferred supported language and using English otherwise. This website also supports Japanese and French; the app does not yet. Cat Break is coming to the Mac App Store as a free app with no account required. It is not publicly released yet."
-      }
+      { q: "How do I start a break?", a: "Complete the setup shown when you first open the app. Then click the paw icon in the menu bar to start a break or open Settings." },
+      { q: "When will reminders appear?", a: "Choose a 30-, 60-, or 120-minute interval. Reminders can follow the clock: with a 30-minute interval, they appear at 10:00, 10:30, and so on. Or count the interval from when you turn reminders on or resume them after a pause. You can also set times when reminders stay off." },
+      { q: "How do I pet the cat?", a: "Wait until the cat is asleep, then select “Pet the cat”. Place the pointer over the cat and slide three fingers across the trackpad without clicking. With a mouse, hold down the button and drag over the cat." },
+      { q: "Why do three fingers switch desktops?", a: "macOS may already use that gesture to switch desktops. Cat Break does not block system gestures or change those settings. Use mouse click-and-drag instead, or check your trackpad gesture settings in macOS." },
+      { q: "Why can’t I hear anything?", a: "Sounds are off by default. Open Settings, turn on meows or purring, and raise the volume. Purring starts when you pet the sleeping cat, builds to the volume you set, and continues while you keep petting." },
+      { q: "How do I get back to work?", a: "Select “Dismiss” to remove the cat immediately. “Snooze 10 min” also removes it and sets a reminder for 10 minutes later. You can turn automatic reminders off or pause them from the menu bar." },
+      { q: "Can I turn off the animation?", a: "Yes. Turn on “Reduce Motion” in Settings to show a still image instead of video. Cat Break also follows the macOS Reduce Motion setting." },
+      { q: "What are the system and language requirements?", a: "Cat Break requires macOS 15 or later. The app supports English and Korean. It uses the first supported language in your system’s preferred languages, or English if neither is listed. This website also offers Japanese and French; the app does not yet support those languages." },
+      { q: "Where can I download it?", a: "Cat Break is not publicly available yet. It is being prepared for the Mac App Store as a free app with no account required." }
     ],
-    privacyLabel: "Your information",
-    privacyTitle: "Privacy, in plain words.",
-    privacyLead: "Cat Break works without an account. The app stores its settings and break records on your Mac, with no advertising or analytics SDKs and no transfer of this data to a developer server.",
+    privacyLabel: "Privacy",
+    privacyTitle: "App data stays on your Mac.",
+    privacyLead: "No account, ads, or analytics tools. The app keeps settings and break records on your Mac and does not send them to the developer’s servers. Details about support email and website hosting are below.",
     privacySections: [
-      {
-        title: "What the app stores locally",
-        body: "The app stores settings, reminder schedules, and break-session timestamps, states, outcomes, and visible durations locally on your Mac. These records describe the app’s break sessions."
-      },
-      {
-        title: "How petting input is handled",
-        body: "Petting input is processed temporarily within the app to respond to your gestures. The app does not record raw touch paths or keystrokes, capture your screen, or collect document contents, browsing history, microphone data, or camera data. References used to restore focus to your previous app remain in memory only."
-      },
-      {
-        title: "Removing local data",
-        body: "The current app has no general control for deleting local data or history. Email music.bk@gmail.com for local data removal instructions. Uninstalling the app alone may leave local settings and data behind."
-      },
-      {
-        title: "Apple services and diagnostics",
-        body: "Optional Apple diagnostics and processing through the App Store or TestFlight are separate from the app’s local storage and are governed by Apple’s policies."
-      },
-      {
-        title: "Support email and this website",
-        body: "If you email support, the contact information and message you provide are used to reply and resolve your request. Email music.bk@gmail.com to request deletion of support correspondence. This website uses no analytics, cookies, or browser storage for preferences. GitHub Pages hosts the site; the host’s standard access logs are separate and governed by GitHub’s policies."
-      }
+      { title: "What the app saves", body: "The app saves your settings and reminder schedule. It also records when breaks start and end, their current state, how they ended, and how long the cat was displayed. These records describe breaks in the app, not your work activity." },
+      { title: "How petting works", body: "The app uses your gestures to respond while you pet the cat. It does not save touch paths or keystrokes, take screenshots, or collect document contents, browsing history, microphone audio, or camera images. Information used to return you to your previous app is kept temporarily in memory, not saved to disk." },
+      { title: "Deleting app data", body: "There is no button in the app to delete settings or break records yet. For removal instructions, email music.bk@gmail.com. Deleting the app alone may leave some settings and records on your Mac." },
+      { title: "Apple services", body: "If you choose to share diagnostics with Apple, Apple’s policies apply. Data handled by the App Store and TestFlight is also covered by Apple’s policies, separately from the data this app stores on your Mac." },
+      { title: "Email and this website", body: "When you email support, your contact details and message are used to answer your question and help resolve the issue. To request deletion of that correspondence, email music.bk@gmail.com. This website uses no analytics tools or cookies and does not save preferences in your browser. GitHub Pages hosts the site. Its standard access logs are covered by GitHub’s policies." }
     ],
-    footerLine: "A little pause. A softer day.",
+    footerLine: "Take a break with a cat.",
     backTop: "Back to top"
   },
   fr: {
-    title: "Cat Break — Une pause. Tout en douceur.",
-    description: "Un chat s’invite sur votre Mac pour une petite pause. Choisissez vos rappels et vos sons, puis reprenez votre travail quand vous le souhaitez. Bientôt sur le Mac App Store.",
+    title: "Cat Break — Faites une pause avec un chat.",
+    description: "Un chat apparaît à l’écran pour vous rappeler de faire une pause. Réglez les rappels, caressez-le et reprenez votre travail quand vous le souhaitez. Bientôt sur le Mac App Store.",
     skip: "Aller au contenu",
     navHow: "Découvrir",
     navSupport: "Assistance",
     navPrivacy: "Confidentialité",
-    heroTitle: ["Une pause.", "Tout en douceur."],
-    heroDescription: "Cat Break invite un chat sur votre Mac, le temps d’une petite pause pour souffler et repartir du bon pied.",
+    heroTitle: ["Une pause.", "Avec un chat."],
+    heroDescription: "À l’heure de la pause, un chat apparaît à l’écran. Regardez-le s’installer. Vous avez du travail ? Vous pouvez reprendre à tout moment.",
     ctaDemo: "Voir le chat",
-    ctaSupport: "Nous contacter",
+    ctaSupport: "Obtenir de l’aide",
     availability: "Bientôt sur le Mac App Store · macOS 15+ · Gratuit",
     howLabel: "Comment ça marche",
-    howTitle: ["Une visite,", "pas une tâche de plus."],
-    howIntro: "Invitez le chat depuis la barre des menus ou programmez vos rappels. Il prend son temps. À vous de décider combien de temps rester.",
+    howTitle: ["Le chat arrive.", "La pause commence."],
+    howIntro: "Choisissez quand le chat apparaît, ou lancez une pause depuis la barre des menus. Restez un moment avec lui, puis reprenez votre travail quand vous le souhaitez.",
     steps: [
-      {
-        title: "Une arrivée discrète",
-        body: "Un chat roux entre par le bord de votre écran. Si vous activez le miaulement, un petit bonjour annonce son arrivée."
-      },
-      {
-        title: "Le temps de se poser",
-        body: "Le chat s’assoit, somnole, puis s’allonge. Une fois qu’il dort, choisissez « Pet the cat » pour passer un moment à le caresser."
-      },
-      {
-        title: "Retour à votre journée",
-        body: "Choisissez « Dismiss » pour terminer la visite immédiatement, ou « Snooze 10 min » pour masquer le chat et reporter le rappel de 10 minutes. Vous pouvez aussi suspendre les rappels automatiques."
-      }
+      { title: "Le voilà.", body: "Un chat roux entre par le bord de l’écran. Activez le miaulement pour l’entendre juste avant son arrivée." },
+      { title: "Place aux caresses.", body: "Le chat s’assoit, s’allonge et s’endort. Une fois qu’il dort, sélectionnez « Pet the cat » pour le caresser." },
+      { title: "Reprenez quand vous voulez.", body: "Sélectionnez « Dismiss » pour faire disparaître le chat immédiatement. Avec « Snooze 10 min », il disparaît et le rappel revient 10 minutes plus tard." }
     ],
-    galleryLabel: "Une visite en quatre moments",
+    galleryLabel: "Quatre scènes avec le chat",
     galleryAlt: [
-      "Un chat roux arrive sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais.",
-      "Un chat roux est assis sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais.",
-      "Un chat roux s’allonge sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais.",
-      "Un chat roux dort sur un bureau de travail fictif. Les commandes de l’application sont affichées en anglais."
+      "Un chat roux marche devant un exemple d’écran de travail.",
+      "Un chat roux est assis devant un exemple d’écran de travail.",
+      "Un chat roux s’allonge devant un exemple d’écran de travail.",
+      "Un chat roux dort devant un exemple d’écran de travail."
     ],
-    galleryNames: ["Arrivée", "Assis", "Au repos", "Sommeil"],
+    galleryNames: ["Il arrive", "Il s’assoit", "Il s’allonge", "Il dort"],
     enlarge: "Agrandir l’image",
     closeImage: "Fermer l’image",
-    detailsLabel: "Simple et discret",
-    detailsTitle: ["Simple par nature.", "Privé par choix."],
-    detailsIntro: "Recevez un rappel à chaque heure pile ou à intervalles réguliers depuis le démarrage. Définissez des plages sans rappels, suspendez-les ou invitez le chat depuis la barre des menus.",
+    detailsLabel: "Vos réglages",
+    detailsTitle: ["Vos pauses.", "À votre rythme."],
+    detailsIntro: "Choisissez un rappel toutes les 30, 60 ou 120 minutes. Définissez des plages sans rappels, ou suspendez-les pour vous concentrer.",
     features: [
-      {
-        title: "Tout reste sur votre Mac",
-        body: "Les réglages, les horaires des rappels et les données des pauses sont conservés localement. L’application ne les transmet pas à un serveur du développeur."
-      },
-      {
-        title: "Sans compte",
-        body: "Gratuit, sans inscription. L’application ne contient ni publicité ni SDK d’analyse."
-      },
-      {
-        title: "Des sons, si vous le souhaitez",
-        body: "Miaulements et ronronnements sont désactivés par défaut, avec un interrupteur et un volume pour chacun. Activez le ronronnement : il augmente progressivement pendant les caresses, jusqu’au volume choisi."
-      }
+      { title: "Les données de l’app restent sur votre Mac.", body: "L’application conserve vos réglages, les horaires des rappels et l’historique des pauses sur votre Mac. Elle ne les envoie pas aux serveurs du développeur." },
+      { title: "Gratuit. Sans compte.", body: "Pas d’inscription ni de publicité. L’application n’utilise aucun outil d’analyse pour suivre votre utilisation." },
+      { title: "Le son, à vous de choisir.", body: "Les miaulements et les ronronnements sont désactivés au départ. Activez-les séparément et réglez leur volume. Le volume du ronronnement augmente progressivement jusqu’au niveau choisi et continue tant que vous caressez le chat." }
     ],
-    supportLabel: "Quelques repères",
-    supportTitle: "Besoin d’aide ?",
-    supportIntro: "Quelques réponses avant la première visite. Pour toute autre question, écrivez-nous.",
-    contactLabel: "Écrire à l’assistance",
-    contactHint: "Indiquez les versions de l’application et de macOS, le modèle de Mac, le dispositif de pointage et les étapes pour reproduire le problème. N’envoyez aucun mot de passe, document privé ou capture contenant des informations personnelles.",
+    supportLabel: "Assistance",
+    supportTitle: "Les réponses à vos questions.",
+    supportIntro: "Consultez les réponses ci-dessous. Besoin d’aide ? Écrivez-nous.",
+    contactLabel: "Contacter l’assistance",
+    contactHint: "Indiquez les versions de l’application et de macOS, le modèle de Mac et si vous utilisez un trackpad ou une souris. Décrivez ce que vous faisiez au moment du problème. N’envoyez pas de mot de passe, de document privé ni de capture contenant des informations personnelles.",
     faqs: [
-      {
-        q: "Comment inviter le chat ou programmer les rappels ?",
-        a: "Terminez le guide du premier lancement, puis utilisez l’icône en forme de patte dans la barre des menus pour démarrer une pause ou ouvrir les réglages. Choisissez des rappels à chaque heure pile ou à intervalles réguliers depuis le démarrage, et définissez les plages horaires sans visite automatique."
-      },
-      {
-        q: "Comment caresser le chat ?",
-        a: "Les caresses sont possibles uniquement lorsque le chat dort. Choisissez « Pet the cat », placez le pointeur sur le chat et faites glisser trois doigts sur le trackpad, sans cliquer. Avec une souris, cliquez sur le chat et faites glisser le pointeur en maintenant le bouton enfoncé."
-      },
-      {
-        q: "Pourquoi le geste à trois doigts change-t-il de bureau ?",
-        a: "Les gestes à trois doigts de macOS peuvent entrer en conflit avec les caresses. Cat Break ne bloque pas les gestes du système et ne modifie pas vos réglages. En cas de conflit, utilisez le cliquer-glisser avec la souris ou consultez les réglages des gestes de macOS."
-      },
-      {
-        q: "Pourquoi n’y a-t-il aucun son ?",
-        a: "Les sons sont désactivés par défaut. Dans les réglages, activez séparément les miaulements et les ronronnements, puis ajustez leur volume. Une fois activé, le ronronnement commence avec les caresses et augmente progressivement tant que vous continuez, jusqu’au volume choisi."
-      },
-      {
-        q: "Puis-je terminer la visite ou réduire les animations ?",
-        a: "Oui. « Dismiss » termine la visite immédiatement ; « Snooze 10 min » masque aussitôt le chat et reporte le rappel de 10 minutes. Vous pouvez aussi désactiver ou suspendre les rappels automatiques. « Reduce Motion » affiche une image fixe à la place de la vidéo et tient également compte du réglage de réduction des animations de macOS."
-      },
-      {
-        q: "Quels Mac et quelles langues sont pris en charge ? Quand sera-t-il disponible ?",
-        a: "Cat Break nécessite macOS 15 ou une version ultérieure. L’application est actuellement disponible en anglais et en coréen. Elle utilise la langue compatible préférée du système, ou l’anglais à défaut. Le site propose aussi le français et le japonais, mais pas encore l’application. Cat Break sera gratuit et sans compte sur le Mac App Store. Il n’est pas encore disponible au public."
-      }
+      { q: "Comment lancer une pause ?", a: "Suivez les étapes proposées à la première ouverture de l’application. Cliquez ensuite sur l’icône en forme de patte dans la barre des menus pour lancer une pause ou ouvrir les réglages." },
+      { q: "Quand les rappels apparaissent-ils ?", a: "Choisissez un intervalle de 30, 60 ou 120 minutes. Avec des horaires fixes, un rappel toutes les 30 minutes apparaît à 10 h, 10 h 30, etc. Vous pouvez aussi compter l’intervalle à partir du moment où vous activez les rappels ou les reprenez après une suspension. Vous pouvez aussi définir des plages sans rappels." },
+      { q: "Comment caresser le chat ?", a: "Attendez qu’il dorme, puis sélectionnez « Pet the cat » (caresser le chat). Placez le pointeur sur le chat et faites glisser trois doigts sur le trackpad, sans cliquer. Avec une souris, maintenez le bouton enfoncé et faites glisser le pointeur sur le chat." },
+      { q: "Pourquoi le geste à trois doigts change-t-il de bureau ?", a: "macOS peut déjà utiliser ce geste pour changer de bureau. Cat Break ne bloque pas les gestes du système et ne modifie pas ces réglages. Utilisez la souris en maintenant le bouton enfoncé, ou vérifiez les réglages des gestes du trackpad dans macOS." },
+      { q: "Pourquoi n’y a-t-il pas de son ?", a: "Les sons sont désactivés au départ. Dans les réglages, activez les miaulements ou les ronronnements et augmentez le volume. Le ronronnement commence quand vous caressez le chat endormi. Son volume augmente progressivement jusqu’au niveau choisi et continue tant que vous le caressez." },
+      { q: "Comment reprendre mon travail ?", a: "Sélectionnez « Dismiss » pour faire disparaître le chat immédiatement. « Snooze 10 min » le fait aussi disparaître et programme un rappel 10 minutes plus tard. Vous pouvez désactiver ou suspendre les rappels automatiques depuis la barre des menus." },
+      { q: "Puis-je désactiver l’animation ?", a: "Oui. Activez « Reduce Motion » dans les réglages pour afficher une image fixe à la place de la vidéo. Cat Break suit également le réglage de réduction des animations de macOS." },
+      { q: "Quels sont les Mac et les langues compatibles ?", a: "Cat Break nécessite macOS 15 ou une version ultérieure. L’application propose l’anglais et le coréen. Elle choisit la première de ces langues dans les langues préférées du système, ou l’anglais si aucune n’y figure. Ce site propose aussi le français et le japonais, mais l’application ne prend pas encore ces deux langues en charge." },
+      { q: "Où télécharger l’application ?", a: "Cat Break n’est pas encore disponible au public. Sa sortie sur le Mac App Store est en préparation. L’application sera gratuite et ne nécessitera pas de compte." }
     ],
-    privacyLabel: "Vos informations",
-    privacyTitle: "La confidentialité, en toute clarté.",
-    privacyLead: "Cat Break fonctionne sans compte. Les réglages et les données des pauses restent sur votre Mac. L’application ne contient aucun SDK publicitaire ou d’analyse et ne transmet pas ces données à un serveur du développeur.",
+    privacyLabel: "Confidentialité",
+    privacyTitle: "Les données de l’app restent sur votre Mac.",
+    privacyLead: "Pas de compte, de publicité ni d’outil d’analyse. L’application conserve vos réglages et l’historique des pauses sur votre Mac, sans les envoyer aux serveurs du développeur. Les informations sur les e-mails et l’hébergement du site figurent ci-dessous.",
     privacySections: [
-      {
-        title: "Les données conservées sur le Mac",
-        body: "L’application conserve localement les réglages, les horaires des rappels, ainsi que les horodatages, états, résultats et durées d’affichage des sessions de pause. Ces données décrivent les pauses de l’application."
-      },
-      {
-        title: "Le traitement des gestes de caresse",
-        body: "Les gestes sont traités temporairement dans l’application pour permettre au chat de réagir. L’application n’enregistre ni les trajectoires tactiles brutes ni les frappes au clavier, ne capture pas l’écran et ne collecte aucun contenu de document, historique de navigation, donnée du microphone ou de la caméra. Les références servant à réactiver l’application précédente sont conservées uniquement en mémoire."
-      },
-      {
-        title: "Supprimer les données locales",
-        body: "L’application ne propose pas actuellement de commande générale pour supprimer les données locales ou l’historique. Écrivez à music.bk@gmail.com pour connaître la procédure. La désinstallation seule peut laisser des réglages et des données sur votre Mac."
-      },
-      {
-        title: "Services et diagnostics Apple",
-        body: "Les diagnostics facultatifs d’Apple et les traitements liés à l’App Store ou à TestFlight sont distincts du stockage local de l’application et relèvent des politiques d’Apple."
-      },
-      {
-        title: "Assistance par e-mail et site web",
-        body: "Si vous contactez l’assistance par e-mail, les coordonnées et le message fournis servent à vous répondre et à résoudre votre demande. Vous pouvez demander la suppression de ces échanges à music.bk@gmail.com. Ce site n’utilise ni outil d’analyse, ni cookie, ni stockage des préférences dans le navigateur. Il est hébergé sur GitHub Pages ; les journaux d’accès habituels de l’hébergeur sont distincts et relèvent des politiques de GitHub."
-      }
+      { title: "Ce que l’application enregistre", body: "L’application enregistre vos réglages et les horaires des rappels. Elle conserve aussi les heures de début et de fin des pauses, leur état, la façon dont elles se terminent et la durée d’affichage du chat. Ces données concernent les pauses dans l’application, pas votre activité professionnelle." },
+      { title: "Les gestes de caresse", body: "L’application traite vos gestes pour réagir pendant les caresses. Elle n’enregistre ni les trajectoires des doigts ni les frappes au clavier et ne capture pas l’écran. Elle ne collecte pas le contenu des documents, l’historique de navigation, le son du microphone ni les images de la caméra. Les informations permettant de revenir à l’application précédente restent temporairement en mémoire et ne sont pas enregistrées sur disque." },
+      { title: "Supprimer les données de l’application", body: "L’application ne propose pas encore de bouton pour supprimer les réglages ou l’historique des pauses. Pour savoir comment les supprimer, écrivez à music.bk@gmail.com. Supprimer l’application peut laisser certains réglages et enregistrements sur votre Mac." },
+      { title: "Les services Apple", body: "Si vous choisissez de partager des diagnostics avec Apple, les politiques d’Apple s’appliquent. Elles couvrent aussi les données traitées par l’App Store et TestFlight, séparément des données que cette application conserve sur votre Mac." },
+      { title: "Les e-mails et ce site", body: "Lorsque vous écrivez à l’assistance, vos coordonnées et votre message servent à vous répondre et à résoudre le problème. Vous pouvez demander la suppression de ces échanges à music.bk@gmail.com. Ce site n’utilise ni outil d’analyse ni cookie et n’enregistre pas vos préférences dans le navigateur. Il est hébergé sur GitHub Pages. Les journaux d’accès habituels de l’hébergeur relèvent des politiques de GitHub." }
     ],
-    footerLine: "Une pause. Tout en douceur.",
+    footerLine: "Faites une pause avec un chat.",
     backTop: "Haut de page"
   },
   ko: {
-    title: "Cat Break — 잠깐의 쉼. 조금 더 부드러운 하루.",
-    description: "Mac에 찾아온 고양이와 잠깐 쉬어 가세요. 알림과 소리는 원하는 대로, 작업 복귀는 언제든지. Mac App Store 출시 준비 중입니다.",
+    title: "Cat Break — 고양이와 잠깐 쉬어 가세요.",
+    description: "쉴 시간이 되면 화면에 고양이가 찾아와요. 알림 시간을 정하고, 고양이를 쓰다듬고, 원할 때 작업으로 돌아가세요. Mac App Store 출시 준비 중입니다.",
     skip: "본문으로 건너뛰기",
     navHow: "사용 방법",
     navSupport: "지원",
-    navPrivacy: "개인정보",
-    heroTitle: ["잠깐의 쉼.", "부드러운 하루."],
-    heroDescription: "고양이가 Mac 화면으로 걸어와 자리를 잡고, 조용히 곁에 머뭅니다. 내 속도대로 잠깐 쉬어 가라는 작은 초대예요.",
+    navPrivacy: "개인정보 보호",
+    heroTitle: ["고양이와", "잠깐 쉬어 가세요."],
+    heroDescription: "쉴 시간이 되면 화면에 고양이가 찾아와요. 자리를 잡고 잠드는 모습을 지켜보세요. 바쁘다면 언제든 닫고 작업을 이어갈 수 있어요.",
     ctaDemo: "고양이 만나보기",
-    ctaSupport: "지원 문의",
+    ctaSupport: "도움 받기",
     availability: "Mac App Store 출시 준비 중 · macOS 15+ · 무료",
-    howLabel: "함께하는 잠깐",
-    howTitle: ["할 일이 아닌,", "반가운 손님."],
-    howIntro: "메뉴 막대에서 고양이를 부르거나 알림 시간을 정하세요. 고양이는 천천히 자리를 잡고, 얼마나 함께할지는 내가 정합니다.",
+    howLabel: "사용 방법",
+    howTitle: ["고양이가 오면,", "잠깐 쉬어 갈 시간."],
+    howIntro: "고양이가 찾아올 시간을 정하거나 메뉴 막대에서 직접 불러보세요. 잠깐 함께하다가, 원할 때 작업으로 돌아가면 돼요.",
     steps: [
-      {
-        title: "조용한 등장",
-        body: "주황 고양이가 화면 옆에서 걸어옵니다. 야옹 소리를 켜 두었다면, 짧은 인사가 먼저 들려요."
-      },
-      {
-        title: "편안하게 자리 잡기",
-        body: "고양이가 앉아 졸다가 몸을 눕힙니다. 잠들면 ‘쓰다듬기’를 눌러 잠깐 교감해 보세요."
-      },
-      {
-        title: "다시 나의 하루로",
-        body: "‘닫기’를 누르면 즉시 종료되고, ‘10분 뒤’를 누르면 고양이가 사라지고 알림을 미룹니다. 자동 알림을 잠시 꺼 둘 수도 있어요."
-      }
+      { title: "화면 옆에서 걸어와요.", body: "주황 고양이가 화면 가장자리에서 걸어 들어와요. 야옹 소리를 켜 두면, 등장하기 전에 소리로 알려줘요." },
+      { title: "잠들면 쓰다듬어 보세요.", body: "고양이가 앉았다가 몸을 눕히고 잠들어요. 잠든 뒤 ‘쓰다듬기’를 누르면 트랙패드나 마우스로 쓰다듬을 수 있어요." },
+      { title: "돌아가고 싶을 땐, 바로.", body: "‘닫기’를 누르면 고양이가 바로 사라져요. 조금 뒤에 쉬고 싶다면 ‘10분 뒤’를 눌러주세요. 고양이가 사라지고 10분 뒤에 다시 알려줘요." }
     ],
-    galleryLabel: "네 장면으로 만나는 고양이",
+    galleryLabel: "고양이의 네 가지 모습",
     galleryAlt: [
-      "가상 업무 화면 위로 걸어오는 주황 고양이. 앱 조작부는 영어로 표시되어 있습니다.",
-      "가상 업무 화면 위에 앉아 있는 주황 고양이. 앱 조작부는 영어로 표시되어 있습니다.",
-      "가상 업무 화면 위에서 몸을 눕히는 주황 고양이. 앱 조작부는 영어로 표시되어 있습니다.",
-      "가상 업무 화면 위에서 잠든 주황 고양이. 앱 조작부는 영어로 표시되어 있습니다."
+      "예시 업무 화면 위로 걸어오는 주황 고양이.",
+      "예시 업무 화면 앞에 앉아 있는 주황 고양이.",
+      "예시 업무 화면 앞에 몸을 눕히는 주황 고양이.",
+      "예시 업무 화면 앞에서 잠든 주황 고양이."
     ],
-    galleryNames: ["걸어오기", "앉기", "자리 잡기", "잠들기"],
+    galleryNames: ["걸어오기", "앉기", "눕기", "잠들기"],
     enlarge: "이미지 크게 보기",
     closeImage: "이미지 닫기",
-    detailsLabel: "나의 Mac을 위한 작은 동반자",
-    detailsTitle: ["단순하게 만들고,", "소중하게 지킵니다."],
-    detailsIntro: "정각 또는 시작 시점 기준의 간격으로 알림을 설정하세요. 알림 제외 시간을 정하거나 잠시 끄고, 메뉴 막대에서 직접 고양이를 부를 수도 있습니다.",
+    detailsLabel: "원하는 대로 설정",
+    detailsTitle: ["쉬는 시간도,", "내 방식대로."],
+    detailsIntro: "알림 간격은 30분, 60분, 120분 중에서 고를 수 있어요. 알림을 받지 않을 시간을 정하거나, 집중이 필요할 때 잠시 꺼 두세요.",
     features: [
-      {
-        title: "내 Mac에 저장",
-        body: "설정, 알림 일정, 휴식 세션 기록은 로컬에 저장합니다. 앱은 이 데이터를 개발자 서버로 보내지 않습니다."
-      },
-      {
-        title: "계정 없이 가볍게",
-        body: "무료로, 가입 없이 사용합니다. 앱에 광고나 분석 SDK가 없습니다."
-      },
-      {
-        title: "소리는 원할 때만",
-        body: "야옹과 골골 소리는 기본으로 꺼져 있으며 각각 켜고 음량을 정할 수 있습니다. 골골 소리를 켜면 쓰다듬는 동안 설정한 음량까지 점차 커집니다."
-      }
+      { title: "기록은 내 Mac에만.", body: "설정과 알림 일정, 휴식 기록은 Mac에 저장해요. 앱은 이 정보를 개발자 서버로 보내지 않아요." },
+      { title: "무료로, 가입 없이.", body: "계정을 만들 필요도, 광고를 볼 필요도 없어요. 앱 사용 내역을 추적하는 분석 도구도 사용하지 않아요." },
+      { title: "소리는 원할 때만.", body: "야옹과 골골 소리는 처음에는 꺼져 있어요. 각각 켜고 음량을 정할 수 있어요. 골골 소리는 쓰다듬을수록 정해둔 음량까지 커지고, 쓰다듬는 동안 이어져요." }
     ],
-    supportLabel: "간단한 사용 안내",
-    supportTitle: "도움이 필요하신가요?",
-    supportIntro: "첫 만남 전에 알아 두면 좋은 내용을 모았습니다. 다른 궁금한 점은 이메일로 문의해 주세요.",
-    contactLabel: "이메일로 문의",
-    contactHint: "앱·macOS 버전, Mac과 입력 장치 종류, 문제 재현 순서를 알려 주세요. 비밀번호, 개인 문서, 개인정보가 담긴 화면 캡처는 보내지 마세요.",
+    supportLabel: "지원",
+    supportTitle: "궁금한 점이 있나요?",
+    supportIntro: "자주 묻는 질문을 모았어요. 더 궁금한 점은 이메일로 문의해 주세요.",
+    contactLabel: "이메일로 문의하기",
+    contactHint: "앱과 macOS 버전, Mac 모델, 트랙패드와 마우스 중 무엇을 쓰는지 알려주세요. 문제가 생겼을 때 어떤 조작을 했는지도 적어주세요. 비밀번호, 개인 문서, 개인정보가 담긴 화면 캡처는 보내지 마세요.",
     faqs: [
-      {
-        q: "고양이를 부르거나 알림을 설정하려면 어떻게 하나요?",
-        a: "첫 실행 안내를 마친 뒤 메뉴 막대의 발바닥 아이콘에서 휴식을 시작하거나 설정을 여세요. 정각 또는 시작 시점 기준의 간격으로 알림을 정하고, 자동 방문을 원하지 않는 시간은 제외 시간으로 설정할 수 있습니다."
-      },
-      {
-        q: "고양이는 어떻게 쓰다듬나요?",
-        a: "쓰다듬기는 고양이가 잠든 동안에만 가능합니다. ‘쓰다듬기’를 누르고 커서를 고양이 위에 둔 뒤, 클릭하지 않고 트랙패드를 세 손가락으로 쓸어 주세요. 마우스는 고양이 위에서 클릭한 채 드래그하면 됩니다."
-      },
-      {
-        q: "세 손가락으로 쓸면 데스크탑이 전환돼요.",
-        a: "macOS의 세 손가락 제스처가 쓰다듬기와 충돌할 수 있습니다. Cat Break는 시스템 제스처를 막거나 설정을 바꾸지 않습니다. 충돌이 생기면 마우스로 클릭한 채 드래그하거나 macOS 제스처 설정을 확인해 주세요."
-      },
-      {
-        q: "왜 소리가 나지 않나요?",
-        a: "소리는 기본으로 꺼져 있습니다. 설정에서 야옹과 골골 소리를 각각 켜고 음량을 조절하세요. 골골 소리를 켜 두면 쓰다듬기 시작할 때 소리가 나고, 계속 쓰다듬는 동안 선택한 음량까지 점차 커집니다."
-      },
-      {
-        q: "고양이를 닫거나 움직임을 줄일 수 있나요?",
-        a: "네. ‘닫기’는 방문을 즉시 종료하고, ‘10분 뒤’는 고양이를 바로 숨기고 알림을 미룹니다. 자동 알림을 끄거나 잠시 중단할 수도 있습니다. ‘움직임 줄이기’를 켜면 영상 대신 정지 이미지를 표시하며, macOS의 움직임 줄이기 설정도 따릅니다."
-      },
-      {
-        q: "지원하는 Mac과 언어는 무엇이며, 언제 받을 수 있나요?",
-        a: "macOS 15 이상이 필요합니다. 앱은 현재 영어와 한국어를 지원하며 시스템의 선호 언어 중 지원하는 언어를 사용하고, 해당 언어가 없으면 영어로 표시합니다. 웹사이트는 일본어와 프랑스어도 제공하지만 앱은 아직 두 언어를 지원하지 않습니다. 무료·계정 없는 앱으로 Mac App Store 출시를 준비 중이며, 아직 공개 출시되지 않았습니다."
-      }
+      { q: "고양이를 바로 부르려면 어떻게 하나요?", a: "앱을 처음 열 때 나오는 설정 안내를 마쳐주세요. 그다음 메뉴 막대의 발바닥 아이콘을 누르면 휴식을 시작하거나 설정을 열 수 있어요." },
+      { q: "알림은 언제 오나요?", a: "30분, 60분, 120분 간격 중에서 선택할 수 있어요. 시계에 맞추면 30분 간격일 때 10시, 10시 30분처럼 정해진 시각에 알려줘요. 알림을 켜거나 잠시 멈췄다가 다시 시작한 때부터 선택한 간격마다 알리는 방식도 있어요. 알림을 받지 않을 시간도 정할 수 있어요." },
+      { q: "고양이를 어떻게 쓰다듬나요?", a: "고양이가 잠들면 ‘쓰다듬기’를 눌러주세요. 커서를 고양이 위에 놓고, 클릭하지 않은 채 트랙패드를 세 손가락으로 쓸어주세요. 마우스는 버튼을 누른 채 고양이 위로 움직이면 돼요." },
+      { q: "세 손가락으로 쓸면 다른 데스크탑으로 넘어가요.", a: "macOS에 같은 동작이 데스크탑 전환으로 설정되어 있을 수 있어요. Cat Break는 시스템 동작을 막거나 설정을 바꾸지 않아요. 마우스 버튼을 누른 채 움직이는 방법을 쓰거나, macOS의 트랙패드 제스처 설정을 확인해 주세요." },
+      { q: "소리가 들리지 않아요.", a: "소리는 처음에는 꺼져 있어요. 설정에서 야옹 또는 골골 소리를 켜고 음량을 높여주세요. 골골 소리는 잠든 고양이를 쓰다듬으면 나기 시작해요. 정해둔 음량까지 점차 커지고, 쓰다듬는 동안 이어져요." },
+      { q: "작업으로 돌아가려면 어떻게 하나요?", a: "‘닫기’를 누르면 고양이가 바로 사라져요. ‘10분 뒤’를 누르면 고양이가 사라지고 10분 뒤에 다시 알려줘요. 메뉴 막대에서 자동 알림을 끄거나 잠시 멈출 수도 있어요." },
+      { q: "고양이가 움직이지 않게 할 수 있나요?", a: "네. 설정에서 ‘움직임 줄이기’를 켜면 영상 대신 정지 이미지로 보여줘요. macOS의 ‘움직임 줄이기’ 설정도 따라요." },
+      { q: "어떤 환경에서 사용할 수 있나요?", a: "macOS 15 이상이 필요해요. 앱은 영어와 한국어를 지원하며, 시스템의 선호 언어 순서에 따라 둘 중 하나를 사용해요. 두 언어가 모두 없으면 영어로 표시해요. 웹사이트는 일본어와 프랑스어도 제공하지만, 앱은 아직 두 언어를 지원하지 않아요." },
+      { q: "어디서 다운로드할 수 있나요?", a: "아직 공개 출시 전이에요. Mac App Store 출시를 준비하고 있어요. 무료로 제공하며, 계정 없이 사용할 수 있어요." }
     ],
-    privacyLabel: "개인정보 안내",
-    privacyTitle: "알기 쉽게 설명하는 개인정보 처리방침.",
-    privacyLead: "Cat Break는 계정 없이 작동합니다. 설정과 휴식 기록은 내 Mac에 저장하며, 광고·분석 SDK를 사용하거나 이 데이터를 개발자 서버로 전송하지 않습니다.",
+    privacyLabel: "개인정보 보호",
+    privacyTitle: "앱 기록은 Mac 안에.",
+    privacyLead: "계정도, 광고도, 분석 도구도 없어요. 앱은 설정과 휴식 기록을 Mac에 저장하고 개발자 서버로 보내지 않아요. 지원 이메일과 웹사이트에서 정보를 다루는 방식은 아래에 안내해요.",
     privacySections: [
-      {
-        title: "앱이 로컬에 저장하는 정보",
-        body: "설정, 알림 일정, 휴식 세션의 시각·상태·종료 결과·표시 시간을 Mac에 로컬 저장합니다. 이 기록은 앱의 휴식 세션에 관한 정보입니다."
-      },
-      {
-        title: "쓰다듬기 입력 처리",
-        body: "쓰다듬기 입력은 고양이가 동작에 반응하도록 앱 안에서 일시 처리합니다. 원시 터치 궤적이나 키 입력을 기록하거나 화면을 캡처하지 않으며, 문서 내용·웹 방문 내역·마이크·카메라 데이터를 수집하지 않습니다. 이전 앱으로 포커스를 돌려주기 위한 참조는 메모리에만 유지합니다."
-      },
-      {
-        title: "로컬 데이터 삭제",
-        body: "현재 앱에는 로컬 데이터나 기록을 일반적으로 삭제하는 기능이 없습니다. 로컬 데이터 삭제 방법은 music.bk@gmail.com으로 문의해 주세요. 앱만 제거하면 로컬 설정과 데이터가 남을 수 있습니다."
-      },
-      {
-        title: "Apple 서비스와 진단",
-        body: "Apple의 선택적 진단과 App Store·TestFlight를 통한 처리는 앱의 로컬 저장과 별개이며, Apple의 정책이 적용됩니다."
-      },
-      {
-        title: "지원 이메일과 웹사이트",
-        body: "이메일로 문의하면 제공한 연락처와 문의 내용을 답변과 문제 해결에 사용합니다. 문의 내용 삭제는 music.bk@gmail.com으로 요청할 수 있습니다. 이 웹사이트는 분석 도구, 쿠키, 환경설정을 위한 브라우저 저장소를 사용하지 않습니다. 사이트는 GitHub Pages에서 제공하며, 호스팅의 기본 접속 로그는 별도로 GitHub 정책의 적용을 받습니다."
-      }
+      { title: "앱에 저장되는 정보", body: "설정과 알림 일정을 저장해요. 휴식을 시작하고 마친 시각, 진행 상태, 어떻게 종료했는지, 고양이가 표시된 시간도 기록해요. 앱에서의 휴식에 관한 기록이며, 작업 내용을 추적하는 정보는 아니에요." },
+      { title: "쓰다듬을 때 사용하는 정보", body: "고양이가 쓰다듬기에 반응하도록 손가락과 마우스 움직임을 일시적으로 처리해요. 손가락이 움직인 경로나 누른 키는 저장하지 않고, 화면을 캡처하지도 않아요. 문서 내용, 웹 방문 내역, 마이크 소리, 카메라 이미지도 수집하지 않아요. 이전 앱으로 돌아가기 위한 정보는 메모리에 잠시 보관하며 파일로 저장하지 않아요." },
+      { title: "앱 데이터 삭제", body: "현재 앱에는 설정이나 휴식 기록을 삭제하는 버튼이 없어요. 삭제 방법은 music.bk@gmail.com으로 문의해 주세요. 앱만 지우면 일부 설정과 기록이 Mac에 남을 수 있어요." },
+      { title: "Apple 서비스", body: "Apple에 진단 정보를 공유하도록 선택한 경우에는 Apple의 정책이 적용돼요. App Store와 TestFlight가 처리하는 정보에도 Apple의 정책이 적용돼요. 이는 이 앱이 Mac에 저장하는 정보와는 별개예요." },
+      { title: "이메일과 웹사이트", body: "이메일로 보내주신 연락처와 문의 내용은 답변과 문제 해결에 사용해요. 문의 내역 삭제는 music.bk@gmail.com으로 요청할 수 있어요. 이 웹사이트는 분석 도구나 쿠키를 사용하지 않고, 브라우저에 환경설정을 저장하지 않아요. 사이트는 GitHub Pages에서 제공해요. 서비스 운영 과정에서 남는 기본 접속 기록에는 GitHub의 정책이 적용돼요." }
     ],
-    footerLine: "잠깐의 쉼. 부드러운 하루.",
+    footerLine: "고양이와 잠깐 쉬어 가세요.",
     backTop: "맨 위로"
   },
   ja: {
-    title: "Cat Break — ひと息ついて。少しやさしい一日に。",
-    description: "Macにやってくる猫と、ちょっとひと休み。通知と音はお好みで、作業にはいつでも戻れます。Mac App Storeでの公開を準備中です。",
+    title: "Cat Break — 猫と、ひと休み。",
+    description: "休憩の時間になると、画面に猫がやってきます。通知を設定して、猫をなでて、好きな時に作業へ。Mac App Storeでの公開を準備中です。",
     skip: "本文へスキップ",
     navHow: "使い方",
     navSupport: "サポート",
     navPrivacy: "プライバシー",
-    heroTitle: ["ひと息ついて。", "やさしい一日を。"],
-    heroDescription: "猫がMacの画面に歩いてきて、居場所を見つけ、静かにくつろぎます。自分のペースで、少しだけ休むきっかけに。",
-    ctaDemo: "猫の訪問を見る",
-    ctaSupport: "サポートに連絡",
+    heroTitle: ["猫と、", "ひと休み。"],
+    heroDescription: "休憩の時間になると、画面に猫がやってきます。くつろいで眠る姿を眺めてみませんか。忙しい時は、いつでも作業に戻れます。",
+    ctaDemo: "猫の様子を見る",
+    ctaSupport: "ヘルプを見る",
     availability: "Mac App Storeで公開予定 · macOS 15+ · 無料",
-    howLabel: "一緒に過ごすひととき",
-    howTitle: ["タスクではなく、", "小さなお客さん。"],
-    howIntro: "メニューバーから猫を呼ぶか、通知の時刻を決めましょう。猫はゆっくりくつろぎます。一緒に過ごす時間は、自分で決められます。",
+    howLabel: "使い方",
+    howTitle: ["猫が来たら、", "休憩の時間。"],
+    howIntro: "猫が来る時間を決めることも、メニューバーからすぐに呼ぶこともできます。少し休んだら、好きな時に作業へ戻りましょう。",
     steps: [
-      {
-        title: "静かにやってくる",
-        body: "茶トラの猫が画面の端から歩いてきます。鳴き声をオンにしていれば、小さなごあいさつが先に聞こえます。"
-      },
-      {
-        title: "ゆっくりくつろぐ",
-        body: "猫は座り、うとうとしてから横になります。眠ったら「Pet the cat（なでる）」を選んで、そっとなでてみてください。"
-      },
-      {
-        title: "また自分の時間へ",
-        body: "「Dismiss（閉じる）」ですぐに終了。「Snooze 10 min（10分後）」なら猫が消え、通知を先に延ばせます。自動通知の一時停止もできます。"
-      }
+      { title: "画面の端から、こんにちは。", body: "茶トラの猫が画面の端から歩いてきます。鳴き声をオンにすると、姿を見せる前に声で知らせてくれます。" },
+      { title: "眠ったら、なでてみよう。", body: "猫は座ってから横になり、眠りにつきます。眠ったら「Pet the cat」を選ぶと、なでられます。" },
+      { title: "いつでも作業に戻れます。", body: "「Dismiss」を選ぶと、猫はすぐに画面から消えます。「Snooze 10 min」なら猫が消え、10分後にもう一度知らせます。" }
     ],
-    galleryLabel: "4つの場面で見る猫の訪問",
+    galleryLabel: "猫の4つのシーン",
     galleryAlt: [
-      "架空の作業画面の上に歩いてくる茶トラの猫。アプリの操作部分は英語表示です。",
-      "架空の作業画面の上に座っている茶トラの猫。アプリの操作部分は英語表示です。",
-      "架空の作業画面の上で横になる茶トラの猫。アプリの操作部分は英語表示です。",
-      "架空の作業画面の上で眠っている茶トラの猫。アプリの操作部分は英語表示です。"
+      "作業画面のイメージの上を歩く茶トラの猫。",
+      "作業画面のイメージの手前に座る茶トラの猫。",
+      "作業画面のイメージの手前で横になる茶トラの猫。",
+      "作業画面のイメージの手前で眠る茶トラの猫。"
     ],
-    galleryNames: ["やってくる", "座る", "くつろぐ", "眠る"],
+    galleryNames: ["歩く", "座る", "横になる", "眠る"],
     enlarge: "画像を拡大",
     closeImage: "画像を閉じる",
-    detailsLabel: "あなたのMacに",
-    detailsTitle: ["使いやすく、", "プライバシーを大切に。"],
-    detailsIntro: "毎正時、または開始時点からの間隔で通知を設定できます。通知しない時間帯を決めたり、一時停止したり、メニューバーから自分で猫を呼んだりできます。",
+    detailsLabel: "お好みの設定で",
+    detailsTitle: ["休み方も、", "自分らしく。"],
+    detailsIntro: "通知の間隔は30分、60分、120分から選べます。通知しない時間帯を決めたり、集中したい時に一時停止したりすることもできます。",
     features: [
-      {
-        title: "Macの中に保存",
-        body: "設定、通知スケジュール、休憩セッションの記録はローカルに保存します。アプリはこれらを開発者のサーバーに送信しません。"
-      },
-      {
-        title: "アカウント不要",
-        body: "無料で、登録せずに使えます。アプリに広告や解析SDKはありません。"
-      },
-      {
-        title: "音は、お好みで",
-        body: "鳴き声とゴロゴロ音は初期設定ではオフ。それぞれオンにして音量を調整できます。ゴロゴロ音をオンにすると、なでている間に設定した音量まで少しずつ大きくなります。"
-      }
+      { title: "記録はMacの中だけに。", body: "設定、通知のスケジュール、休憩の記録はMacに保存します。アプリがこれらを開発者のサーバーに送ることはありません。" },
+      { title: "無料。アカウントも不要。", body: "登録は不要で、広告もありません。アプリの利用状況を追跡する解析ツールも使っていません。" },
+      { title: "音は、お好みで。", body: "鳴き声とゴロゴロ音は、最初はオフです。それぞれオンにして音量を調整できます。ゴロゴロ音はなでるほど設定した音量まで大きくなり、なでている間は鳴り続けます。" }
     ],
-    supportLabel: "使い方のヒント",
-    supportTitle: "お手伝いします。",
-    supportIntro: "はじめて使う前に知っておきたいことをまとめました。そのほかのご質問はメールでお寄せください。",
+    supportLabel: "サポート",
+    supportTitle: "気になることは、こちら。",
+    supportIntro: "よくある質問をまとめました。解決しない場合は、メールでお問い合わせください。",
     contactLabel: "メールで問い合わせる",
-    contactHint: "アプリとmacOSのバージョン、Macと入力機器の種類、問題の再現手順をお知らせください。パスワード、個人の文書、個人情報を含む画面の画像は送らないでください。",
+    contactHint: "アプリとmacOSのバージョン、Macのモデル、トラックパッドとマウスのどちらを使っているかをお知らせください。問題が起きた時の操作もご記入ください。パスワード、個人の文書、個人情報を含むスクリーンショットは送らないでください。",
     faqs: [
-      {
-        q: "猫を呼んだり、通知を設定したりするには？",
-        a: "初回起動の案内を終えたら、メニューバーの肉球アイコンから休憩を始めるか、設定を開きます。通知は毎正時、または開始時点からの間隔で設定できます。自動で来てほしくない時間帯も指定できます。"
-      },
-      {
-        q: "猫をなでるには？",
-        a: "なでられるのは猫が眠っている間だけです。「Pet the cat（なでる）」を選び、ポインタを猫の上に置いて、クリックせずにトラックパッドを3本指でなでてください。マウスの場合は、猫の上でクリックしたままドラッグします。"
-      },
-      {
-        q: "3本指でなでるとデスクトップが切り替わります。",
-        a: "macOSの3本指ジェスチャと競合する場合があります。Cat Breakはシステムのジェスチャを遮断したり、設定を変更したりしません。競合する場合はマウスでクリックしたままドラッグするか、macOSのジェスチャ設定をご確認ください。"
-      },
-      {
-        q: "音が出ないのはなぜですか？",
-        a: "音は初期設定ではオフです。設定で鳴き声とゴロゴロ音をそれぞれオンにし、音量を調整してください。ゴロゴロ音をオンにすると、なで始めたときに音が鳴り、なで続ける間に選んだ音量まで少しずつ大きくなります。"
-      },
-      {
-        q: "猫を閉じたり、動きを減らしたりできますか？",
-        a: "はい。「Dismiss（閉じる）」ですぐに終了できます。「Snooze 10 min（10分後）」では猫がすぐに消え、通知を先に延ばせます。自動通知をオフにしたり、一時停止したりすることもできます。「Reduce Motion（動きを減らす）」では動画の代わりに静止画を表示し、macOSの同設定にも従います。"
-      },
-      {
-        q: "対応するMacと言語は？ いつ入手できますか？",
-        a: "macOS 15以降が必要です。アプリは現在、英語と韓国語に対応し、システムの優先言語のうち対応するものを使用します。該当しない場合は英語で表示します。このウェブサイトは日本語とフランス語にも対応していますが、アプリはまだこの2言語に対応していません。無料・アカウント不要のアプリとしてMac App Storeでの公開を準備中で、一般公開はまだ行っていません。"
-      }
+      { q: "すぐに休憩を始めるには？", a: "初回起動時の案内に沿って設定を済ませてください。その後、メニューバーの肉球アイコンをクリックすると、休憩を始めたり設定を開いたりできます。" },
+      { q: "通知はいつ届きますか？", a: "通知の間隔は30分、60分、120分から選べます。時刻に合わせる場合、30分間隔なら10時、10時30分のように知らせます。もう一つの方法では、通知をオンにした時や一時停止から再開した時を基準に、選んだ間隔で知らせます。通知しない時間帯も指定できます。" },
+      { q: "猫をなでるには？", a: "猫が眠ったら「Pet the cat」（なでる）を選びます。ポインタを猫の上に置き、クリックせずに、トラックパッド上で3本の指を滑らせてください。マウスの場合は、ボタンを押したまま猫の上でポインタを動かします。" },
+      { q: "3本指でなでるとデスクトップが切り替わります。", a: "macOSで同じジェスチャがデスクトップの切り替えに設定されている場合があります。Cat Breakはシステムのジェスチャを止めたり、設定を変更したりしません。マウスのボタンを押したまま動かす方法を使うか、macOSのトラックパッド設定を確認してください。" },
+      { q: "音が聞こえません。", a: "音は最初はオフです。設定で鳴き声やゴロゴロ音をオンにして、音量を上げてください。ゴロゴロ音は眠っている猫をなでると鳴り始めます。設定した音量まで徐々に大きくなり、なでている間は鳴り続けます。" },
+      { q: "作業に戻るには？", a: "「Dismiss」を選ぶと、猫はすぐに画面から消えます。「Snooze 10 min」でも猫が消え、10分後にもう一度知らせます。メニューバーから自動通知をオフにしたり、一時停止したりすることもできます。" },
+      { q: "アニメーションをオフにできますか？", a: "はい。設定の「Reduce Motion」をオンにすると、動画の代わりに静止画を表示します。macOSの「視差効果を減らす」設定にも従います。" },
+      { q: "対応する環境と言語は？", a: "macOS 15以降が必要です。アプリは英語と韓国語に対応しています。システムの優先言語の順に、対応する言語を使います。どちらもない場合は英語で表示します。このウェブサイトには日本語とフランス語もありますが、アプリはまだこの2言語に対応していません。" },
+      { q: "どこでダウンロードできますか？", a: "現在、一般公開はしていません。Mac App Storeでの公開を準備中です。無料で、アカウントを作らずに使えます。" }
     ],
-    privacyLabel: "情報の取り扱い",
-    privacyTitle: "わかりやすいプライバシーポリシー。",
-    privacyLead: "Cat Breakはアカウントなしで動作します。設定と休憩の記録はMacに保存し、広告・解析SDKの使用や、これらのデータの開発者サーバーへの送信は行いません。",
+    privacyLabel: "プライバシー",
+    privacyTitle: "設定と休憩の記録は、Macに保存。",
+    privacyLead: "アカウントも、広告も、解析ツールもありません。設定と休憩の記録はMacに保存し、開発者のサーバーには送りません。メールとウェブサイトでの情報の取り扱いは、以下をご確認ください。",
     privacySections: [
-      {
-        title: "アプリがローカルに保存する情報",
-        body: "設定、通知スケジュール、休憩セッションの時刻・状態・終了結果・表示時間をMacにローカル保存します。これらはアプリの休憩セッションに関する記録です。"
-      },
-      {
-        title: "なでる操作の入力処理",
-        body: "なでる操作の入力は、猫が動きに反応するためにアプリ内で一時的に処理します。生のタッチ軌跡やキー入力の記録、画面のキャプチャは行わず、文書の内容、閲覧履歴、マイクやカメラのデータも収集しません。直前のアプリにフォーカスを戻すための参照情報は、メモリ内だけに保持します。"
-      },
-      {
-        title: "ローカルデータの削除",
-        body: "現在のアプリには、ローカルデータや履歴をまとめて削除する一般的な機能はありません。削除方法はmusic.bk@gmail.comまでお問い合わせください。アプリをアンインストールするだけでは、ローカルの設定やデータが残る場合があります。"
-      },
-      {
-        title: "Appleのサービスと診断",
-        body: "Appleの任意の診断機能や、App Store・TestFlightを通じた処理は、アプリのローカル保存とは別のものです。これらにはAppleのポリシーが適用されます。"
-      },
-      {
-        title: "サポートメールとウェブサイト",
-        body: "メールでお問い合わせいただいた場合、提供された連絡先とメッセージを返信や問題解決に使用します。お問い合わせ内容の削除はmusic.bk@gmail.comまでご依頼ください。このウェブサイトは解析ツール、Cookie、設定を保存するためのブラウザストレージを使用しません。サイトはGitHub Pagesで提供され、ホスティング側の標準的なアクセスログには、別途GitHubのポリシーが適用されます。"
-      }
+      { title: "アプリが保存する情報", body: "設定と通知のスケジュールを保存します。休憩を始めた時刻と終えた時刻、進行状況、終了の仕方、猫が表示されていた時間も記録します。アプリ内の休憩の記録であり、作業内容を追跡するものではありません。" },
+      { title: "なでる時に使う情報", body: "猫が反応するために、操作を一時的に処理します。指の動いた軌跡やキー入力は保存せず、画面も撮影しません。文書の内容、閲覧履歴、マイクの音声、カメラの画像も収集しません。前のアプリに戻るための情報は一時的にメモリに保持し、ディスクには保存しません。" },
+      { title: "アプリのデータを削除するには", body: "現在、設定や休憩の記録を削除するボタンはありません。削除方法はmusic.bk@gmail.comまでお問い合わせください。アプリを削除するだけでは、一部の設定や記録がMacに残る場合があります。" },
+      { title: "Appleのサービス", body: "Appleへの診断情報の共有を選んだ場合は、Appleのポリシーが適用されます。App StoreとTestFlightが扱う情報にもAppleのポリシーが適用されます。これらは、このアプリがMacに保存する情報とは別のものです。" },
+      { title: "メールとウェブサイト", body: "メールでいただいた連絡先とお問い合わせ内容は、返信と問題解決に使います。メールのやり取りの削除はmusic.bk@gmail.comまでご依頼ください。このウェブサイトは解析ツールやCookieを使わず、ブラウザに設定を保存しません。サイトはGitHub Pagesで提供しています。サービス運営に伴う標準的なアクセス記録には、GitHubのポリシーが適用されます。" }
     ],
-    footerLine: "ひと息ついて。やさしい一日を。",
+    footerLine: "猫と、ひと休み。",
     backTop: "ページの先頭へ"
   }
 };

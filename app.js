@@ -18,6 +18,8 @@ function applyLanguage(scroll = false) {
   document.documentElement.lang = language;
   document.title = content[language].title;
   document.querySelector('meta[name="description"]').content = content[language].description;
+  document.querySelector('meta[property="og:title"]').content = content[language].title;
+  document.querySelector('meta[property="og:description"]').content = content[language].description;
   document.querySelectorAll('[data-locale]').forEach(section => { section.hidden = section.dataset.locale !== language; });
   if (scroll && location.hash) {
     document.getElementById(location.hash.slice(1))?.scrollIntoView();
