@@ -75,7 +75,7 @@ export const content = {
     navSupport: "Assistance",
     navPrivacy: "Confidentialité",
     heroTitle: ["Une pause.", "Avec un chat."],
-    heroDescription: "À l’heure de la pause, un chat apparaît à l’écran. Regardez-le s’installer. Vous avez du travail ? Vous pouvez reprendre à tout moment.",
+    heroDescription: "À l’heure de la pause, un chat apparaît à l’écran. Il s’installe et s’endort. Reprenez votre travail quand vous le souhaitez.",
     ctaDemo: "Voir le chat",
     ctaSupport: "Obtenir de l’aide",
     availability: "Bientôt sur le Mac App Store · macOS 15+ · Gratuit",
@@ -84,8 +84,8 @@ export const content = {
     howIntro: "Choisissez quand le chat apparaît, ou lancez une pause depuis la barre des menus. Restez un moment avec lui, puis reprenez votre travail quand vous le souhaitez.",
     steps: [
       { title: "Le voilà.", body: "Un chat roux entre par le bord de l’écran. Activez le miaulement pour l’entendre juste avant son arrivée." },
-      { title: "Place aux caresses.", body: "Le chat s’assoit, s’allonge et s’endort. Une fois qu’il dort, sélectionnez « Pet the cat » pour le caresser." },
-      { title: "Reprenez quand vous voulez.", body: "Sélectionnez « Dismiss » pour faire disparaître le chat immédiatement. Avec « Snooze 10 min », il disparaît et le rappel revient 10 minutes plus tard." }
+      { title: "Place aux caresses.", body: "Le chat s’assoit, s’allonge et s’endort. Une fois qu’il dort, sélectionnez « Pet the cat » pour le caresser." },
+      { title: "Reprenez quand vous voulez.", body: "Sélectionnez « Dismiss » pour faire disparaître le chat immédiatement. Avec « Snooze 10 min », il disparaît et le rappel revient 10 minutes plus tard." }
     ],
     galleryLabel: "Quatre scènes avec le chat",
     galleryAlt: [
@@ -107,19 +107,19 @@ export const content = {
     ],
     supportLabel: "Assistance",
     supportTitle: "Les réponses à vos questions.",
-    supportIntro: "Consultez les réponses ci-dessous. Besoin d’aide ? Écrivez-nous.",
+    supportIntro: "Consultez les réponses ci-dessous. Besoin d’aide ? Écrivez-nous.",
     contactLabel: "Contacter l’assistance",
     contactHint: "Indiquez les versions de l’application et de macOS, le modèle de Mac et si vous utilisez un trackpad ou une souris. Décrivez ce que vous faisiez au moment du problème. N’envoyez pas de mot de passe, de document privé ni de capture contenant des informations personnelles.",
     faqs: [
-      { q: "Comment lancer une pause ?", a: "Suivez les étapes proposées à la première ouverture de l’application. Cliquez ensuite sur l’icône en forme de patte dans la barre des menus pour lancer une pause ou ouvrir les réglages." },
-      { q: "Quand les rappels apparaissent-ils ?", a: "Choisissez un intervalle de 30, 60 ou 120 minutes. Avec des horaires fixes, un rappel toutes les 30 minutes apparaît à 10 h, 10 h 30, etc. Vous pouvez aussi compter l’intervalle à partir du moment où vous activez les rappels ou les reprenez après une suspension. Vous pouvez aussi définir des plages sans rappels." },
-      { q: "Comment caresser le chat ?", a: "Attendez qu’il dorme, puis sélectionnez « Pet the cat » (caresser le chat). Placez le pointeur sur le chat et faites glisser trois doigts sur le trackpad, sans cliquer. Avec une souris, maintenez le bouton enfoncé et faites glisser le pointeur sur le chat." },
-      { q: "Pourquoi le geste à trois doigts change-t-il de bureau ?", a: "macOS peut déjà utiliser ce geste pour changer de bureau. Cat Break ne bloque pas les gestes du système et ne modifie pas ces réglages. Utilisez la souris en maintenant le bouton enfoncé, ou vérifiez les réglages des gestes du trackpad dans macOS." },
-      { q: "Pourquoi n’y a-t-il pas de son ?", a: "Les sons sont désactivés au départ. Dans les réglages, activez les miaulements ou les ronronnements et augmentez le volume. Le ronronnement commence quand vous caressez le chat endormi. Son volume augmente progressivement jusqu’au niveau choisi et continue tant que vous le caressez." },
-      { q: "Comment reprendre mon travail ?", a: "Sélectionnez « Dismiss » pour faire disparaître le chat immédiatement. « Snooze 10 min » le fait aussi disparaître et programme un rappel 10 minutes plus tard. Vous pouvez désactiver ou suspendre les rappels automatiques depuis la barre des menus." },
-      { q: "Puis-je désactiver l’animation ?", a: "Oui. Activez « Reduce Motion » dans les réglages pour afficher une image fixe à la place de la vidéo. Cat Break suit également le réglage de réduction des animations de macOS." },
-      { q: "Quels sont les Mac et les langues compatibles ?", a: "Cat Break nécessite macOS 15 ou une version ultérieure. L’application propose l’anglais et le coréen. Elle choisit la première de ces langues dans les langues préférées du système, ou l’anglais si aucune n’y figure. Ce site propose aussi le français et le japonais, mais l’application ne prend pas encore ces deux langues en charge." },
-      { q: "Où télécharger l’application ?", a: "Cat Break n’est pas encore disponible au public. Sa sortie sur le Mac App Store est en préparation. L’application sera gratuite et ne nécessitera pas de compte." }
+      { q: "Comment lancer une pause ?", a: "Suivez les étapes proposées à la première ouverture de l’application. Cliquez ensuite sur l’icône en forme de patte dans la barre des menus pour lancer une pause ou ouvrir les réglages." },
+      { q: "Quand les rappels apparaissent-ils ?", a: "Choisissez un intervalle de 30, 60 ou 120 minutes. Avec des horaires fixes, un rappel toutes les 30 minutes apparaît à 10 h, 10 h 30, etc. Vous pouvez aussi compter l’intervalle à partir du moment où vous activez les rappels ou les reprenez après une suspension. Vous pouvez aussi définir des plages sans rappels." },
+      { q: "Comment caresser le chat ?", a: "Attendez qu’il dorme, puis sélectionnez « Pet the cat » (caresser le chat). Placez le pointeur sur le chat et faites glisser trois doigts sur le trackpad, sans cliquer. Avec une souris, maintenez le bouton enfoncé et faites glisser le pointeur sur le chat." },
+      { q: "Pourquoi le geste à trois doigts change-t-il de bureau ?", a: "macOS peut déjà utiliser ce geste pour changer de bureau. Cat Break ne bloque pas les gestes du système et ne modifie pas ces réglages. Utilisez la souris en maintenant le bouton enfoncé, ou vérifiez les réglages des gestes du trackpad dans macOS." },
+      { q: "Pourquoi n’y a-t-il pas de son ?", a: "Les sons sont désactivés au départ. Dans les réglages, activez les miaulements ou les ronronnements et augmentez le volume. Le ronronnement commence quand vous caressez le chat endormi. Son volume augmente progressivement jusqu’au niveau choisi et continue tant que vous le caressez." },
+      { q: "Comment reprendre mon travail ?", a: "Sélectionnez « Dismiss » pour faire disparaître le chat immédiatement. « Snooze 10 min » le fait aussi disparaître et programme un rappel 10 minutes plus tard. Vous pouvez désactiver ou suspendre les rappels automatiques depuis la barre des menus." },
+      { q: "Puis-je désactiver l’animation ?", a: "Oui. Activez « Reduce Motion » dans les réglages pour afficher une image fixe à la place de la vidéo. Cat Break suit également le réglage de réduction des animations de macOS." },
+      { q: "Quels sont les Mac et les langues compatibles ?", a: "Cat Break nécessite macOS 15 ou une version ultérieure. L’application propose l’anglais et le coréen. Elle choisit la première de ces langues dans les langues préférées du système, ou l’anglais si aucune n’y figure. Ce site propose aussi le français et le japonais, mais l’application ne prend pas encore ces deux langues en charge." },
+      { q: "Où télécharger l’application ?", a: "Cat Break n’est pas encore disponible au public. Sa sortie sur le Mac App Store est en préparation. L’application sera gratuite et ne nécessitera pas de compte." }
     ],
     privacyLabel: "Confidentialité",
     privacyTitle: "Les données de l’app restent sur votre Mac.",
