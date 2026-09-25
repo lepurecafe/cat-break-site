@@ -88,7 +88,6 @@ export const content = {
     ],
     privacyLabel: "Your information",
     privacyTitle: "Privacy, in plain words.",
-    privacyMeta: "September 24, 2026 · Operator: Bongkwon Choi (BK)",
     privacyLead: "Cat Break works without an account. The app stores its settings and break records on your Mac, with no advertising or analytics SDKs and no transfer of this data to a developer server.",
     privacySections: [
       {
@@ -204,7 +203,6 @@ export const content = {
     ],
     privacyLabel: "Vos informations",
     privacyTitle: "La confidentialité, en toute clarté.",
-    privacyMeta: "24 septembre 2026 · Responsable : Bongkwon Choi (BK)",
     privacyLead: "Cat Break fonctionne sans compte. Les réglages et les données des pauses restent sur votre Mac. L’application ne contient aucun SDK publicitaire ou d’analyse et ne transmet pas ces données à un serveur du développeur.",
     privacySections: [
       {
@@ -320,7 +318,6 @@ export const content = {
     ],
     privacyLabel: "개인정보 안내",
     privacyTitle: "알기 쉽게 설명하는 개인정보 처리방침.",
-    privacyMeta: "2026년 9월 24일 · 운영자: Bongkwon Choi (BK)",
     privacyLead: "Cat Break는 계정 없이 작동합니다. 설정과 휴식 기록은 내 Mac에 저장하며, 광고·분석 SDK를 사용하거나 이 데이터를 개발자 서버로 전송하지 않습니다.",
     privacySections: [
       {
@@ -436,7 +433,6 @@ export const content = {
     ],
     privacyLabel: "情報の取り扱い",
     privacyTitle: "わかりやすいプライバシーポリシー。",
-    privacyMeta: "2026年9月24日 · 運営者：Bongkwon Choi (BK)",
     privacyLead: "Cat Breakはアカウントなしで動作します。設定と休憩の記録はMacに保存し、広告・解析SDKの使用や、これらのデータの開発者サーバーへの送信は行いません。",
     privacySections: [
       {

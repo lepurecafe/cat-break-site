@@ -87,7 +87,6 @@ p { max-width:var(--measure); margin-bottom:1.5em; text-wrap:pretty; }
 summary { font-size:var(--text-body); line-height:1.55; font-weight:500; cursor:pointer; list-style-position:outside; margin-left:1.25em; padding-left:.15em; text-wrap:pretty; overflow-wrap:anywhere; }
 details p { color:var(--muted); margin:1rem 0 0 1.4em; }
 .privacy { border-top:1px solid var(--line); }
-.policy-meta { font-size:var(--text-small); color:var(--muted); }
 .policy-content section { margin-bottom:2.5rem; }
 .policy-content p { color:var(--muted); }
 footer { padding-block:2rem; display:flex; flex-wrap:wrap; gap:1.5rem 2rem; align-items:center; border-top:1px solid var(--line); }
