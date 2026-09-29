@@ -14,7 +14,7 @@ export const content = {
       { title: "Return when ready", body: "Give them a gentle pet, snooze the reminder, or close the break." }
     ],
     companionsTitle: "A familiar face, or three.", companionsBody: "Watch them arrive, settle down, and make room for a little pause.",
-    galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
+    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
     featuresTitle: "Made for an easier pause.",
     features: [
       { title: "Your pace", body: "Choose when reminders appear and how long each break lasts." },
@@ -39,7 +39,7 @@ export const content = {
       { title: "준비되면 돌아가요", body: "쓰다듬거나, 알림을 미루거나, 휴식을 끝내면 돼요." }
     ],
     companionsTitle: "익숙한 얼굴 하나, 또는 셋.", companionsBody: "동물들이 찾아와 자리를 잡는 동안 잠시 쉬어가세요.",
-    galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
+    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
     featuresTitle: "편안한 휴식을 위해.",
     features: [
       { title: "내 속도에 맞게", body: "알림 간격과 휴식 시간을 직접 정할 수 있어요." },
@@ -64,7 +64,7 @@ export const content = {
       { title: "準備ができたら戻る", body: "なでる、通知をあとにする、休憩を終える。自由に選べます。" }
     ],
     companionsTitle: "おなじみの顔、ひとつか三つ。", companionsBody: "動物たちがやってきてくつろぐ間、少しだけ休憩しましょう。",
-    galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
+    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
     featuresTitle: "気軽に休めるように。",
     features: [
       { title: "自分のペースで", body: "通知の間隔と休憩時間を設定できます。" },
@@ -89,7 +89,7 @@ export const content = {
       { title: "Reprenez à votre rythme", body: "Caressez-les, reportez le rappel ou terminez la pause." }
     ],
     companionsTitle: "Un visage familier, ou trois.", companionsBody: "Regardez-les arriver et s’installer pendant votre pause.",
-    galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
+    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
     featuresTitle: "Pour une pause plus légère.",
     features: [
       { title: "À votre rythme", body: "Choisissez la fréquence des rappels et la durée des pauses." },
