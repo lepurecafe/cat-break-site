@@ -2,23 +2,34 @@
 export const content = {
   en: {
     title: "Cat Break — A calmer kind of break",
-    description: "A friendly cat or three Shiba puppies visit your screen. Take a short pause with Cat Break for Mac.",
+    description: "An orange cat visits your screen. Take a short pause with Cat Break for Mac.",
     skip: "Skip to content", navHow: "How it works", navSupport: "Support", navPrivacy: "Privacy",
     heroTitle: "A little company for your break.",
-    heroDescription: "An orange cat or three Shiba puppies wander onto your screen, settle in, and keep you company while you pause.",
+    heroDescription: "An orange cat wanders onto your screen, settles in, and keeps you company while you pause.",
     ctaStore: "Download on the Mac App Store", ctaDetails: "See how it works", platform: "For Mac",
     howLabel: "A pause, made simple", howTitle: "A small break in your day.",
     steps: [
-      { title: "Choose your visitors", body: "Pick the orange cat or three Shiba puppies in Settings." },
+      { title: "Choose a companion", body: "Choose the animal you would like to see in Settings." },
       { title: "Take a moment", body: "Start a break when you like, or let a reminder bring them by." },
-      { title: "Return when ready", body: "Give them a gentle pet, snooze the reminder, or close the break." }
+      { title: "Return when ready", body: "Give the cat a gentle pet, snooze the reminder, or close the break." }
     ],
-    companionsTitle: "A familiar face, or three.", companionsBody: "Watch them arrive, settle down, and make room for a little pause.",
-    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
+    companionsTitle: "A familiar face.", companionsBody: "Watch the cat arrive, settle down, and make room for a little pause.",
+    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", galleryTitle: "A closer look", galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
+    gallery: [
+      { src: "arriving.jpg", alt: "The orange cat arriving on screen." },
+      { src: "sitting.jpg", alt: "The orange cat sitting on screen." },
+      { src: "settling.jpg", alt: "The orange cat settling down." },
+      { src: "sleeping.jpg", alt: "The orange cat asleep on screen." },
+      { src: "current-cat.jpg", alt: "Cat Break during a quiet pause." },
+      { src: "petting-guidance.jpg", alt: "A gentle interaction during a break." },
+      { src: "animal-settings.jpg", alt: "Animal choices in Cat Break settings." },
+      { src: "puppy-rest.jpg", alt: "Animal companions resting together." },
+      { src: "hero-desk.jpg", alt: "A cat resting beside a laptop." }
+    ],
     featuresTitle: "Made for an easier pause.",
     features: [
       { title: "Your pace", body: "Choose when reminders appear and how long each break lasts." },
-      { title: "A little interaction", body: "Pet the sleeping cat or puppies with a trackpad or mouse." },
+      { title: "A little interaction", body: "Pet the sleeping cat with a trackpad or mouse." },
       { title: "Your choice", body: "Sounds are optional. Settings stay on your Mac." }
     ],
     supportTitle: "Need a hand?", supportBody: "For help with Cat Break, send us an email.", contact: "Email support",
@@ -27,23 +38,34 @@ export const content = {
   },
   ko: {
     title: "Cat Break — 잠깐, 함께 쉬어요",
-    description: "주황색 고양이나 시바견 강아지 세 마리가 화면에 찾아와 쉬는 동안 함께합니다. Mac용 Cat Break.",
+    description: "주황색 고양이가 화면에 찾아와 잠시 함께 쉬어요. Mac용 Cat Break.",
     skip: "본문으로 건너뛰기", navHow: "사용 방법", navSupport: "문의", navPrivacy: "개인정보",
     heroTitle: "잠깐, 함께 쉬어요.",
-    heroDescription: "주황색 고양이나 시바견 강아지 세 마리가 화면에 찾아와 자리를 잡고 잠시 곁을 지켜줘요.",
+    heroDescription: "주황색 고양이가 화면에 찾아와 자리를 잡고 잠시 곁을 지켜줘요.",
     ctaStore: "Mac App Store에서 다운로드", ctaDetails: "사용 방법 보기", platform: "Mac용",
     howLabel: "간단한 휴식", howTitle: "하루에 작은 쉼표를.",
     steps: [
-      { title: "동물을 골라요", body: "설정에서 주황색 고양이나 시바견 강아지 세 마리를 선택해요." },
+      { title: "함께할 동물을 골라요", body: "설정에서 휴식 시간에 만날 동물을 선택해요." },
       { title: "잠깐 쉬어요", body: "원할 때 휴식을 시작하거나 알림에 맞춰 함께 쉬어요." },
-      { title: "준비되면 돌아가요", body: "쓰다듬거나, 알림을 미루거나, 휴식을 끝내면 돼요." }
+      { title: "준비되면 돌아가요", body: "고양이를 쓰다듬거나, 알림을 미루거나, 휴식을 끝내면 돼요." }
     ],
-    companionsTitle: "익숙한 얼굴 하나, 또는 셋.", companionsBody: "동물들이 찾아와 자리를 잡는 동안 잠시 쉬어가세요.",
-    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
+    companionsTitle: "익숙한 얼굴과 함께.", companionsBody: "고양이가 찾아와 자리를 잡는 동안 잠시 쉬어가세요.",
+    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", galleryTitle: "Cat Break 살펴보기", galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
+    gallery: [
+      { src: "arriving.jpg", alt: "화면에 들어오는 주황색 고양이." },
+      { src: "sitting.jpg", alt: "화면에 앉아 있는 주황색 고양이." },
+      { src: "settling.jpg", alt: "자리를 잡는 주황색 고양이." },
+      { src: "sleeping.jpg", alt: "화면에서 잠든 주황색 고양이." },
+      { src: "current-cat.jpg", alt: "Cat Break로 잠시 쉬는 화면." },
+      { src: "petting-guidance.jpg", alt: "휴식 중 동물과 교감하는 모습." },
+      { src: "animal-settings.jpg", alt: "Cat Break 설정의 동물 선택." },
+      { src: "puppy-rest.jpg", alt: "함께 휴식하는 동물들." },
+      { src: "hero-desk.jpg", alt: "노트북 옆에서 쉬는 고양이." }
+    ],
     featuresTitle: "편안한 휴식을 위해.",
     features: [
       { title: "내 속도에 맞게", body: "알림 간격과 휴식 시간을 직접 정할 수 있어요." },
-      { title: "작은 교감", body: "트랙패드나 마우스로 잠든 고양이나 강아지를 쓰다듬어요." },
+      { title: "작은 교감", body: "트랙패드나 마우스로 잠든 고양이를 쓰다듬어요." },
       { title: "원하는 만큼", body: "소리는 선택 사항이고 설정은 Mac에 저장돼요." }
     ],
     supportTitle: "도움이 필요하신가요?", supportBody: "Cat Break 사용에 관한 문의를 이메일로 보내주세요.", contact: "이메일 문의",
@@ -52,23 +74,34 @@ export const content = {
   },
   ja: {
     title: "Cat Break — ひと休みを、いっしょに。",
-    description: "茶トラの猫や3匹の柴犬の子犬が画面にやってきて、ひと休みの時間を一緒に過ごします。Mac用Cat Break。",
+    description: "茶トラの猫が画面にやってきて、ひと休みの時間を一緒に過ごします。Mac用Cat Break。",
     skip: "本文へ移動", navHow: "使い方", navSupport: "サポート", navPrivacy: "プライバシー",
     heroTitle: "ひと休みを、いっしょに。",
-    heroDescription: "茶トラの猫や3匹の柴犬の子犬が画面にやってきて、ひと休みの間そばにいてくれます。",
+    heroDescription: "茶トラの猫が画面にやってきて、ひと休みの間そばにいてくれます。",
     ctaStore: "Mac App Storeからダウンロード", ctaDetails: "使い方を見る", platform: "Mac用",
     howLabel: "簡単なひと休み", howTitle: "一日に、小さな休憩を。",
     steps: [
-      { title: "動物を選ぶ", body: "設定で茶トラの猫か、3匹の柴犬の子犬を選びます。" },
+      { title: "一緒に過ごす動物を選ぶ", body: "設定で休憩中に表示する動物を選びます。" },
       { title: "ひと休みする", body: "好きなときに始めるか、通知に合わせて休憩します。" },
-      { title: "準備ができたら戻る", body: "なでる、通知をあとにする、休憩を終える。自由に選べます。" }
+      { title: "準備ができたら戻る", body: "猫をなでる、通知をあとにする、休憩を終える。自由に選べます。" }
     ],
-    companionsTitle: "おなじみの顔、ひとつか三つ。", companionsBody: "動物たちがやってきてくつろぐ間、少しだけ休憩しましょう。",
-    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
+    companionsTitle: "おなじみの顔とひと休み。", companionsBody: "猫がやってきてくつろぐ間、少しだけ休憩しましょう。",
+    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", galleryTitle: "Cat Breakの画面", galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
+    gallery: [
+      { src: "arriving.jpg", alt: "画面にやってくる茶トラの猫。" },
+      { src: "sitting.jpg", alt: "画面に座る茶トラの猫。" },
+      { src: "settling.jpg", alt: "くつろぎ始める茶トラの猫。" },
+      { src: "sleeping.jpg", alt: "画面で眠る茶トラの猫。" },
+      { src: "current-cat.jpg", alt: "Cat Breakでひと休みする画面。" },
+      { src: "petting-guidance.jpg", alt: "休憩中の小さなふれあい。" },
+      { src: "animal-settings.jpg", alt: "Cat Break設定の動物選択。" },
+      { src: "puppy-rest.jpg", alt: "一緒に休む動物たち。" },
+      { src: "hero-desk.jpg", alt: "ノートパソコンのそばで休む猫。" }
+    ],
     featuresTitle: "気軽に休めるように。",
     features: [
       { title: "自分のペースで", body: "通知の間隔と休憩時間を設定できます。" },
-      { title: "小さなふれあい", body: "トラックパッドやマウスで、眠っている猫や子犬をなでられます。" },
+      { title: "小さなふれあい", body: "トラックパッドやマウスで、眠っている猫をなでられます。" },
       { title: "お好みで", body: "サウンドは任意です。設定はMacに保存されます。" }
     ],
     supportTitle: "お困りですか？", supportBody: "Cat Breakについてのご質問はメールでお知らせください。", contact: "サポートにメール",
@@ -77,23 +110,34 @@ export const content = {
   },
   fr: {
     title: "Cat Break — Une pause en bonne compagnie",
-    description: "Un chat roux ou trois chiots Shiba viennent vous tenir compagnie à l’écran pendant votre pause. Cat Break pour Mac.",
+    description: "Un chat roux vient vous tenir compagnie à l’écran pendant votre pause. Cat Break pour Mac.",
     skip: "Aller au contenu", navHow: "Comment ça marche", navSupport: "Assistance", navPrivacy: "Confidentialité",
     heroTitle: "Une pause en bonne compagnie.",
-    heroDescription: "Un chat roux ou trois chiots Shiba arrivent à l’écran, s’installent et vous tiennent compagnie pendant votre pause.",
+    heroDescription: "Un chat roux arrive à l’écran, s’installe et vous tient compagnie pendant votre pause.",
     ctaStore: "Télécharger sur le Mac App Store", ctaDetails: "Voir le fonctionnement", platform: "Pour Mac",
     howLabel: "Une pause, tout simplement", howTitle: "Une petite pause dans la journée.",
     steps: [
-      { title: "Choisissez vos compagnons", body: "Sélectionnez le chat roux ou les trois chiots Shiba dans les réglages." },
+      { title: "Choisissez un compagnon", body: "Choisissez l’animal qui vous accompagnera dans les réglages." },
       { title: "Prenez un moment", body: "Lancez une pause quand vous le souhaitez ou laissez un rappel vous y inviter." },
-      { title: "Reprenez à votre rythme", body: "Caressez-les, reportez le rappel ou terminez la pause." }
+      { title: "Reprenez à votre rythme", body: "Caressez le chat, reportez le rappel ou terminez la pause." }
     ],
-    companionsTitle: "Un visage familier, ou trois.", companionsBody: "Regardez-les arriver et s’installer pendant votre pause.",
-    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
+    companionsTitle: "Un visage familier.", companionsBody: "Regardez le chat arriver et s’installer pendant votre pause.",
+    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", galleryTitle: "Quelques aperçus", galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
+    gallery: [
+      { src: "arriving.jpg", alt: "Le chat roux arrive à l’écran." },
+      { src: "sitting.jpg", alt: "Le chat roux assis à l’écran." },
+      { src: "settling.jpg", alt: "Le chat roux s’installe." },
+      { src: "sleeping.jpg", alt: "Le chat roux dort à l’écran." },
+      { src: "current-cat.jpg", alt: "Cat Break pendant une pause." },
+      { src: "petting-guidance.jpg", alt: "Un petit moment de complicité." },
+      { src: "animal-settings.jpg", alt: "Choix des animaux dans les réglages Cat Break." },
+      { src: "puppy-rest.jpg", alt: "Des animaux se reposent ensemble." },
+      { src: "hero-desk.jpg", alt: "Un chat se repose près d’un ordinateur portable." }
+    ],
     featuresTitle: "Pour une pause plus légère.",
     features: [
       { title: "À votre rythme", body: "Choisissez la fréquence des rappels et la durée des pauses." },
-      { title: "Un petit moment de complicité", body: "Caressez le chat ou les chiots endormis avec le trackpad ou la souris." },
+      { title: "Un petit moment de complicité", body: "Caressez le chat endormi avec le trackpad ou la souris." },
       { title: "Selon vos envies", body: "Les sons sont facultatifs. Vos réglages restent sur votre Mac." }
     ],
     supportTitle: "Besoin d’aide ?", supportBody: "Pour toute question sur Cat Break, envoyez-nous un e-mail.", contact: "Contacter l’assistance",
