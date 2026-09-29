@@ -23,8 +23,8 @@ export const content = {
       {"title":"Back to work. Anytime.","body":"“Dismiss” ends the break immediately. “Snooze 10 min” hides your companion and reminds you again in 10 minutes. The bar keeps its layout as you pet."}
     ],
     galleryLabel: "Version 1.1 interface preview",
-    galleryAlt: ["An orange cat walking across a fictional work screen.","Version 1.1 preview: a sleeping cat above the transparent break controls, on a fictional work screen.","Version 1.1 preview: the fixed break bar showing three-finger and mouse petting instructions.","Version 1.1 native Animal settings pane, offering the orange cat and three Shiba puppies."],
-    galleryNames: ["The cat arrives","Time to rest","Petting guidance","Choose an animal"],
+    galleryAlt: ["Version 1.1 preview: three Shiba puppies sleeping above the transparent break controls, on a fictional work screen.","Version 1.1 preview: a sleeping cat above the transparent break controls, on a fictional work screen.","Version 1.1 preview: the fixed break bar showing three-finger and mouse petting instructions.","Version 1.1 native Animal settings pane, offering the orange cat and three Shiba puppies."],
+    galleryNames: ["Three sleepy puppies","Time to rest","Petting guidance","Choose an animal"],
     enlarge: "Enlarge image",
     closeImage: "Close image",
     detailsLabel: "Your preferences",
@@ -87,8 +87,8 @@ export const content = {
       {"title":"Reprenez quand vous voulez.","body":"« Dismiss » termine la pause immédiatement. « Snooze 10 min » masque les animaux et vous rappelle de faire une pause 10 minutes plus tard. Les boutons gardent leur place pendant les caresses."}
     ],
     galleryLabel: "Aperçu de l’interface 1.1",
-    galleryAlt: ["Un chat roux marche devant un écran de travail fictif.","Aperçu 1.1 : le chat dort au-dessus des commandes de pause transparentes, devant un écran de travail fictif.","Aperçu 1.1 : la barre fixe affiche les instructions pour caresser avec trois doigts ou la souris.","Réglages Animal natifs de la version 1.1, avec le choix du chat roux ou des trois chiots Shiba."],
-    galleryNames: ["Le chat arrive","Au repos","Guide des caresses","Choisir un animal"],
+    galleryAlt: ["Aperçu 1.1 : trois chiots Shiba dorment au-dessus des commandes de pause transparentes, devant un écran de travail fictif.","Aperçu 1.1 : le chat dort au-dessus des commandes de pause transparentes, devant un écran de travail fictif.","Aperçu 1.1 : la barre fixe affiche les instructions pour caresser avec trois doigts ou la souris.","Réglages Animal natifs de la version 1.1, avec le choix du chat roux ou des trois chiots Shiba."],
+    galleryNames: ["Trois chiots au repos","Au repos","Guide des caresses","Choisir un animal"],
     enlarge: "Agrandir l’image",
     closeImage: "Fermer l’image",
     detailsLabel: "Vos réglages",
@@ -151,8 +151,8 @@ export const content = {
       {"title":"돌아가고 싶을 땐, 바로.","body":"‘닫기’를 누르면 바로 휴식을 마쳐요. ‘10분 미루기’를 누르면 동물들이 사라지고 10분 뒤에 다시 알려줘요. 쓰다듬는 동안에도 버튼 위치는 그대로예요."}
     ],
     galleryLabel: "1.1 버전 화면 미리보기",
-    galleryAlt: ["예시 업무 화면 위로 걸어오는 주황 고양이.","1.1 미리보기: 예시 업무 화면 위에 잠든 고양이와 투명한 휴식 조작 막대.","1.1 미리보기: 위치가 고정된 휴식 막대에 세 손가락과 마우스 쓰다듬기 안내가 표시된 모습.","1.1 기본 macOS 동물 설정 화면에서 주황 고양이와 시바견 강아지 세 마리를 고르는 모습."],
-    galleryNames: ["고양이 등장","휴식 시간","쓰다듬기 안내","동물 선택"],
+    galleryAlt: ["1.1 미리보기: 예시 업무 화면 위에 잠든 시바견 강아지 세 마리와 투명한 휴식 조작 막대.","1.1 미리보기: 예시 업무 화면 위에 잠든 고양이와 투명한 휴식 조작 막대.","1.1 미리보기: 위치가 고정된 휴식 막대에 세 손가락과 마우스 쓰다듬기 안내가 표시된 모습.","1.1 기본 macOS 동물 설정 화면에서 주황 고양이와 시바견 강아지 세 마리를 고르는 모습."],
+    galleryNames: ["잠든 강아지들","휴식 시간","쓰다듬기 안내","동물 선택"],
     enlarge: "이미지 크게 보기",
     closeImage: "이미지 닫기",
     detailsLabel: "원하는 대로 설정",
@@ -215,8 +215,8 @@ export const content = {
       {"title":"いつでも作業へ。","body":"「Dismiss」ですぐに休憩を終えられます。「Snooze 10 min」なら動物が消え、10分後にもう一度知らせます。なでている間もボタンの位置は変わりません。"}
     ],
     galleryLabel: "バージョン1.1の画面プレビュー",
-    galleryAlt: ["架空の作業画面の上を歩く茶トラの猫。","1.1プレビュー：架空の作業画面に眠る猫と透明な休憩操作バー。","1.1プレビュー：位置が固定されたバーに3本指とマウスでのなで方が表示された画面。","1.1のmacOS標準のAnimal設定画面で、茶トラの猫と3匹の柴犬の子犬を選ぶ様子。"],
-    galleryNames: ["猫が登場","休憩の時間","なで方の案内","動物を選ぶ"],
+    galleryAlt: ["1.1プレビュー：架空の作業画面に眠る3匹の柴犬の子犬と透明な休憩操作バー。","1.1プレビュー：架空の作業画面に眠る猫と透明な休憩操作バー。","1.1プレビュー：位置が固定されたバーに3本指とマウスでのなで方が表示された画面。","1.1のmacOS標準のAnimal設定画面で、茶トラの猫と3匹の柴犬の子犬を選ぶ様子。"],
+    galleryNames: ["眠る3匹の子犬","休憩の時間","なで方の案内","動物を選ぶ"],
     enlarge: "画像を拡大",
     closeImage: "画像を閉じる",
     detailsLabel: "お好みの設定で",
