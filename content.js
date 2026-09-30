@@ -20,8 +20,6 @@ export const content = {
       { src: "sitting.jpg", alt: "The orange cat sitting on screen." },
       { src: "settling.jpg", alt: "The orange cat settling down." },
       { src: "sleeping.jpg", alt: "The orange cat asleep on screen." },
-      { src: "current-cat.jpg", alt: "Cat Break during a quiet pause." },
-      { src: "petting-guidance.jpg", alt: "A gentle interaction during a break." },
       { src: "animal-settings.jpg", alt: "Animal choices in Cat Break settings." },
       { src: "puppy-rest.jpg", alt: "Animal companions resting together." }
     ],
@@ -55,8 +53,6 @@ export const content = {
       { src: "sitting.jpg", alt: "화면에 앉아 있는 주황색 고양이." },
       { src: "settling.jpg", alt: "자리를 잡는 주황색 고양이." },
       { src: "sleeping.jpg", alt: "화면에서 잠든 주황색 고양이." },
-      { src: "current-cat.jpg", alt: "Cat Break로 잠시 쉬는 화면." },
-      { src: "petting-guidance.jpg", alt: "휴식 중 동물과 교감하는 모습." },
       { src: "animal-settings.jpg", alt: "Cat Break 설정의 동물 선택." },
       { src: "puppy-rest.jpg", alt: "함께 휴식하는 동물들." }
     ],
@@ -90,8 +86,6 @@ export const content = {
       { src: "sitting.jpg", alt: "画面に座る茶トラの猫。" },
       { src: "settling.jpg", alt: "くつろぎ始める茶トラの猫。" },
       { src: "sleeping.jpg", alt: "画面で眠る茶トラの猫。" },
-      { src: "current-cat.jpg", alt: "Cat Breakでひと休みする画面。" },
-      { src: "petting-guidance.jpg", alt: "休憩中の小さなふれあい。" },
       { src: "animal-settings.jpg", alt: "Cat Break設定の動物選択。" },
       { src: "puppy-rest.jpg", alt: "一緒に休む動物たち。" }
     ],
@@ -125,8 +119,6 @@ export const content = {
       { src: "sitting.jpg", alt: "Le chat roux assis à l’écran." },
       { src: "settling.jpg", alt: "Le chat roux s’installe." },
       { src: "sleeping.jpg", alt: "Le chat roux dort à l’écran." },
-      { src: "current-cat.jpg", alt: "Cat Break pendant une pause." },
-      { src: "petting-guidance.jpg", alt: "Un petit moment de complicité." },
       { src: "animal-settings.jpg", alt: "Choix des animaux dans les réglages Cat Break." },
       { src: "puppy-rest.jpg", alt: "Des animaux se reposent ensemble." }
     ],
