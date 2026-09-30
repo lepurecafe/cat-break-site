@@ -14,7 +14,7 @@ export const content = {
       { title: "Return when ready", body: "Give the cat a gentle pet, snooze the reminder, or close the break." }
     ],
     companionsTitle: "A familiar face.", companionsBody: "Watch the cat arrive, settle down, and make room for a little pause.",
-    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", galleryTitle: "A closer look", galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
+    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", heroPhotoAlt: "An orange cat sleeping in front of an open laptop.", galleryTitle: "A closer look", galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
     gallery: [
       { src: "arriving.jpg", alt: "The orange cat arriving on screen." },
       { src: "sitting.jpg", alt: "The orange cat sitting on screen." },
@@ -49,7 +49,7 @@ export const content = {
       { title: "준비되면 돌아가요", body: "고양이를 쓰다듬거나, 알림을 미루거나, 휴식을 끝내면 돼요." }
     ],
     companionsTitle: "익숙한 얼굴과 함께.", companionsBody: "고양이가 찾아와 자리를 잡는 동안 잠시 쉬어가세요.",
-    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", galleryTitle: "Cat Break 살펴보기", galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
+    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", heroPhotoAlt: "열린 노트북 앞에서 잠든 주황색 고양이.", galleryTitle: "Cat Break 살펴보기", galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
     gallery: [
       { src: "arriving.jpg", alt: "화면에 들어오는 주황색 고양이." },
       { src: "sitting.jpg", alt: "화면에 앉아 있는 주황색 고양이." },
@@ -84,7 +84,7 @@ export const content = {
       { title: "準備ができたら戻る", body: "猫をなでる、通知をあとにする、休憩を終える。自由に選べます。" }
     ],
     companionsTitle: "おなじみの顔とひと休み。", companionsBody: "猫がやってきてくつろぐ間、少しだけ休憩しましょう。",
-    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", galleryTitle: "Cat Breakの画面", galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
+    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", heroPhotoAlt: "開いたノートパソコンの前で眠る茶トラの猫。", galleryTitle: "Cat Breakの画面", galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
     gallery: [
       { src: "arriving.jpg", alt: "画面にやってくる茶トラの猫。" },
       { src: "sitting.jpg", alt: "画面に座る茶トラの猫。" },
@@ -119,7 +119,7 @@ export const content = {
       { title: "Reprenez à votre rythme", body: "Caressez le chat, reportez le rappel ou terminez la pause." }
     ],
     companionsTitle: "Un visage familier.", companionsBody: "Regardez le chat arriver et s’installer pendant votre pause.",
-    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", galleryTitle: "Quelques aperçus", galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
+    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", heroPhotoAlt: "Un chat roux dort devant un ordinateur portable ouvert.", galleryTitle: "Quelques aperçus", galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
     gallery: [
       { src: "arriving.jpg", alt: "Le chat roux arrive à l’écran." },
       { src: "sitting.jpg", alt: "Le chat roux assis à l’écran." },
