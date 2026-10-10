@@ -14,14 +14,43 @@ export const content = {
       { title: "Return when ready", body: "Give the cat a gentle pet, snooze the reminder, or close the break." }
     ],
     companionsTitle: "A familiar face.", companionsBody: "Watch the cat arrive, settle down, and make room for a little pause.",
-    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", heroPhotoAlt: "An orange cat sleeping in front of an open laptop.", galleryTitle: "A closer look", galleryAlt: "An orange cat resting on screen during a Cat Break pause.",
-    gallery: [
-      { src: "arriving.jpg", alt: "The orange cat arriving on screen." },
-      { src: "sitting.jpg", alt: "The orange cat sitting on screen." },
-      { src: "settling.jpg", alt: "The orange cat settling down." },
-      { src: "sleeping.jpg", alt: "The orange cat asleep on screen." },
-      { src: "animal-settings.jpg", alt: "Animal choices in Cat Break settings." },
-      { src: "puppy-rest.jpg", alt: "Animal companions resting together." }
+    arrivalAlt: "An orange cat walks onto the screen from the right and settles down.", heroPhotoAlt: "An orange cat sleeping in front of an open laptop.",
+    stories: [
+      {
+        "id": "hero",
+        "title": "A pause on your screen.",
+        "body": "Let a little company remind you to step away from work for a moment.",
+        "src": "stories/en/01-hero.jpg",
+        "alt": "An orange cat resting over a work document, with the Cat Break controls below."
+      },
+      {
+        "id": "companions",
+        "title": "Choose your companion.",
+        "body": "Pick the animal you would like to spend your next break with.",
+        "src": "stories/en/02-companions.jpg",
+        "alt": "Animal choices in Cat Break settings."
+      },
+      {
+        "id": "pet",
+        "title": "A small moment of connection.",
+        "body": "Choose Pet, then move your pointer over the animal or click to interact.",
+        "src": "stories/en/03-pet.jpg",
+        "alt": "An awake gray kitten with pointer guidance and petting feedback."
+      },
+      {
+        "id": "timing",
+        "title": "Find your rhythm.",
+        "body": "Set the reminder interval and break length to suit your day.",
+        "src": "stories/en/04-timing.jpg",
+        "alt": "Cat Break timing settings showing a 45-minute interval and a 7-minute break."
+      },
+      {
+        "id": "return",
+        "title": "Back when you’re ready.",
+        "body": "Dismiss the break or snooze for ten minutes. You decide when to return.",
+        "src": "stories/en/05-return.jpg",
+        "alt": "A cream cat resting over a dark work window with Dismiss and Snooze controls."
+      }
     ],
     featuresTitle: "Made for an easier pause.",
     features: [
@@ -47,14 +76,43 @@ export const content = {
       { title: "준비되면 돌아가요", body: "고양이를 쓰다듬거나, 알림을 미루거나, 휴식을 끝내면 돼요." }
     ],
     companionsTitle: "익숙한 얼굴과 함께.", companionsBody: "고양이가 찾아와 자리를 잡는 동안 잠시 쉬어가세요.",
-    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", heroPhotoAlt: "열린 노트북 앞에서 잠든 주황색 고양이.", galleryTitle: "Cat Break 살펴보기", galleryAlt: "Cat Break 휴식 중 화면에 누워 있는 주황색 고양이.",
-    gallery: [
-      { src: "arriving.jpg", alt: "화면에 들어오는 주황색 고양이." },
-      { src: "sitting.jpg", alt: "화면에 앉아 있는 주황색 고양이." },
-      { src: "settling.jpg", alt: "자리를 잡는 주황색 고양이." },
-      { src: "sleeping.jpg", alt: "화면에서 잠든 주황색 고양이." },
-      { src: "animal-settings.jpg", alt: "Cat Break 설정의 동물 선택." },
-      { src: "puppy-rest.jpg", alt: "함께 휴식하는 동물들." }
+    arrivalAlt: "주황색 고양이가 화면 오른쪽에서 걸어와 자리를 잡는 장면.", heroPhotoAlt: "열린 노트북 앞에서 잠든 주황색 고양이.",
+    stories: [
+      {
+        "id": "hero",
+        "title": "화면 위의 작은 휴식.",
+        "body": "일에 몰두하다가도 잠시 눈을 돌려요. 작은 친구가 쉬어갈 시간을 알려줘요.",
+        "src": "stories/ko/01-hero.jpg",
+        "alt": "작업 문서 위에서 쉬는 주황색 고양이와 하단 휴식 조작 바."
+      },
+      {
+        "id": "companions",
+        "title": "오늘 함께할 친구.",
+        "body": "다음 휴식에 만나고 싶은 동물을 설정에서 골라요.",
+        "src": "stories/ko/02-companions.jpg",
+        "alt": "Cat Break 설정의 동물 선택 화면."
+      },
+      {
+        "id": "pet",
+        "title": "잠깐의 작은 교감.",
+        "body": "쓰다듬기를 누른 뒤 동물 위에서 포인터를 움직이거나 클릭해 보세요.",
+        "src": "stories/ko/03-pet.jpg",
+        "alt": "회색 새끼고양이와 포인터 사용 안내, 쓰다듬기 인식 표시."
+      },
+      {
+        "id": "timing",
+        "title": "내 하루에 맞는 리듬.",
+        "body": "알림 간격과 휴식 시간을 직접 정해요. 내 속도에 맞춰 쉬어가세요.",
+        "src": "stories/ko/04-timing.jpg",
+        "alt": "알림 간격 45분과 휴식 시간 7분을 설정한 화면."
+      },
+      {
+        "id": "return",
+        "title": "준비되면 돌아가요.",
+        "body": "휴식을 닫거나 10분 뒤로 미뤄요. 돌아갈 순간도 내가 정해요.",
+        "src": "stories/ko/05-return.jpg",
+        "alt": "어두운 작업 화면 위에서 쉬는 크림색 고양이와 닫기·미루기 버튼."
+      }
     ],
     featuresTitle: "편안한 휴식을 위해.",
     features: [
@@ -80,14 +138,43 @@ export const content = {
       { title: "準備ができたら戻る", body: "猫をなでる、通知をあとにする、休憩を終える。自由に選べます。" }
     ],
     companionsTitle: "おなじみの顔とひと休み。", companionsBody: "猫がやってきてくつろぐ間、少しだけ休憩しましょう。",
-    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", heroPhotoAlt: "開いたノートパソコンの前で眠る茶トラの猫。", galleryTitle: "Cat Breakの画面", galleryAlt: "Cat Breakの休憩中に画面でくつろぐ茶トラの猫。",
-    gallery: [
-      { src: "arriving.jpg", alt: "画面にやってくる茶トラの猫。" },
-      { src: "sitting.jpg", alt: "画面に座る茶トラの猫。" },
-      { src: "settling.jpg", alt: "くつろぎ始める茶トラの猫。" },
-      { src: "sleeping.jpg", alt: "画面で眠る茶トラの猫。" },
-      { src: "animal-settings.jpg", alt: "Cat Break設定の動物選択。" },
-      { src: "puppy-rest.jpg", alt: "一緒に休む動物たち。" }
+    arrivalAlt: "茶トラの猫が画面の右から歩いてきて、腰を下ろします。", heroPhotoAlt: "開いたノートパソコンの前で眠る茶トラの猫。",
+    stories: [
+      {
+        "id": "hero",
+        "title": "画面の上で、ひと休み。",
+        "body": "作業の途中で少し目を休めましょう。小さな仲間が休憩の時間を知らせます。",
+        "src": "stories/en/01-hero.jpg",
+        "alt": "作業ウィンドウの上で休む茶トラの猫と休憩の操作バー。"
+      },
+      {
+        "id": "companions",
+        "title": "今日の仲間を選ぶ。",
+        "body": "次の休憩で会いたい動物を設定から選べます。",
+        "src": "stories/en/02-companions.jpg",
+        "alt": "Cat Break設定の動物選択画面。"
+      },
+      {
+        "id": "pet",
+        "title": "小さなふれあい。",
+        "body": "なでるボタンを押して、動物の上でポインタを動かすかクリックしてみてください。",
+        "src": "stories/en/03-pet.jpg",
+        "alt": "グレーの子猫とポインタ操作の案内、なでた反応の表示。"
+      },
+      {
+        "id": "timing",
+        "title": "自分のリズムで。",
+        "body": "通知の間隔と休憩の長さを、自分の一日に合わせて設定できます。",
+        "src": "stories/en/04-timing.jpg",
+        "alt": "通知間隔45分、休憩7分の設定画面。"
+      },
+      {
+        "id": "return",
+        "title": "準備ができたら戻る。",
+        "body": "休憩を閉じるか、10分後に延期できます。戻るタイミングは自由です。",
+        "src": "stories/en/05-return.jpg",
+        "alt": "暗い作業画面で休むクリーム色の猫と終了・延期の操作。"
+      }
     ],
     featuresTitle: "気軽に休めるように。",
     features: [
@@ -113,14 +200,43 @@ export const content = {
       { title: "Reprenez à votre rythme", body: "Caressez le chat, reportez le rappel ou terminez la pause." }
     ],
     companionsTitle: "Un visage familier.", companionsBody: "Regardez le chat arriver et s’installer pendant votre pause.",
-    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", heroPhotoAlt: "Un chat roux dort devant un ordinateur portable ouvert.", galleryTitle: "Quelques aperçus", galleryAlt: "Un chat roux se repose à l’écran pendant une pause Cat Break.",
-    gallery: [
-      { src: "arriving.jpg", alt: "Le chat roux arrive à l’écran." },
-      { src: "sitting.jpg", alt: "Le chat roux assis à l’écran." },
-      { src: "settling.jpg", alt: "Le chat roux s’installe." },
-      { src: "sleeping.jpg", alt: "Le chat roux dort à l’écran." },
-      { src: "animal-settings.jpg", alt: "Choix des animaux dans les réglages Cat Break." },
-      { src: "puppy-rest.jpg", alt: "Des animaux se reposent ensemble." }
+    arrivalAlt: "Un chat roux arrive par la droite de l’écran et s’installe.", heroPhotoAlt: "Un chat roux dort devant un ordinateur portable ouvert.",
+    stories: [
+      {
+        "id": "hero",
+        "title": "Une pause sur votre écran.",
+        "body": "Une petite compagnie vous rappelle de quitter le travail des yeux un instant.",
+        "src": "stories/en/01-hero.jpg",
+        "alt": "Un chat roux se repose sur une fenêtre de travail avec les commandes Cat Break."
+      },
+      {
+        "id": "companions",
+        "title": "Choisissez votre compagnon.",
+        "body": "Choisissez dans les réglages l’animal de votre prochaine pause.",
+        "src": "stories/en/02-companions.jpg",
+        "alt": "Le choix des animaux dans les réglages Cat Break."
+      },
+      {
+        "id": "pet",
+        "title": "Un petit moment de complicité.",
+        "body": "Activez les caresses, puis déplacez le pointeur sur l’animal ou cliquez pour interagir.",
+        "src": "stories/en/03-pet.jpg",
+        "alt": "Un chaton gris et les indications pour le caresser avec le pointeur."
+      },
+      {
+        "id": "timing",
+        "title": "À votre rythme.",
+        "body": "Réglez l’intervalle des rappels et la durée des pauses selon votre journée.",
+        "src": "stories/en/04-timing.jpg",
+        "alt": "Un rappel toutes les 45 minutes et une pause de 7 minutes dans les réglages."
+      },
+      {
+        "id": "return",
+        "title": "Reprenez quand vous voulez.",
+        "body": "Fermez la pause ou reportez-la de dix minutes. Vous choisissez quand reprendre.",
+        "src": "stories/en/05-return.jpg",
+        "alt": "Un chat crème sur une fenêtre sombre avec les commandes de fermeture et de report."
+      }
     ],
     featuresTitle: "Pour une pause plus légère.",
     features: [
